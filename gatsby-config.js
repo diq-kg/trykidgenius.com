@@ -1,13 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `TailwindPlay`,
-    description: `GatsbyJS Starter styled with Tailwind CSS`,
-    author: `@Sm0keDev`,
-    github: `https://github.com/app-generator/gatsbyjs-starter-tailwindplay`,
-    blog: `https://blog.appseed.us/tag/gatsbyjs`,
-    product: `https://appseed.us/apps/gatsbyjs`,
-    docs: `https://docs.appseed.us/apps/gatsbyjs`
-
+    title: `Try Kidgenius`,
+    description: `Intelligent `,
+    author: ``,
+    github: ``,
+    blog: ``,
+    product: ``,
+    docs: ``
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,10 +24,10 @@ module.exports = {
     },
     `gatsby-plugin-postcss`,
     {
-      resolve: "gatsby-plugin-purgecss",
+      resolve: 'gatsby-plugin-purgecss',
       options: {
         tailwind: true,
-        purgeOnly: ["src/css/style.css", "src/css/global.css"]
+        purgeOnly: ['src/css/style.css', 'src/css/global.css']
       }
     }
   ]
