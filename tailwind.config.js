@@ -22,6 +22,9 @@ module.exports = {
         brand: ['"Sailec Regular"', 'sans-serif'],
         'brand-bold': ['"Sailec Bold"', 'sans-serif'],
         'brand-medium': ['"Sailec Medium"', 'sans-serif']
+      },
+      zIndex: {
+        '-10': '-10'
       }
     }
   },
