@@ -1,5 +1,18 @@
-
 .gradient {
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
+@font-face {
+  font-family: 'Sailec Bold';
+  src: url('../fonts/sailec_bold.woff2');
+}
+
+@font-face {
+  font-family: 'Sailec Regular';
+  src: url('../fonts/sailec_regular.woff2');
+}
+
+@font-face {
+  font-family: 'Sailec Medium';
+  src: url('../fonts/sailec_medium.woff2');
+}

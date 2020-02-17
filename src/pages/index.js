@@ -7,9 +7,9 @@ import catAndHumanIllustration from '../images/cat-and-human-illustration.svg';
 function IndexPage() {
   return (
     <Layout>
-      <SEO title="Home" keywords={[`daycare`, `childcare`, `saas`]} />
+      <SEO title="Try Kidgenius" keywords={[`daycare`, `childcare`, `saas`]} />
 
-      <div className="flex">Goole</div>
+      <div className="flex">Content</div>
     </Layout>
   );
 }
