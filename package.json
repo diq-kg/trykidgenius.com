@@ -5,7 +5,7 @@
   "author": "",
   "dependencies": {
     "ftp-deploy": "^2.3.3",
-    "gatsby": "^2.10.4",
+    "gatsby": "^2.14.x",
     "gatsby-plugin-manifest": "^2.2.0",
     "gatsby-plugin-postcss": "^2.1.0",
     "gatsby-plugin-purgecss": "^4.0.0",
@@ -24,7 +24,7 @@
     "analyze": "npm run analyze:lint && npm run analyze:prettier",
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-paths && node deploy",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -H 0.0.0.0",
     "fix:lint": "eslint --ext .jsx --ext .js . --fix",
     "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",
     "fix": "npm run fix:lint && npm run fix:prettier",

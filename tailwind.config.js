@@ -11,6 +11,9 @@ module.exports = {
           brand: '#222222'
         }
       },
+      screens: {
+        brand: '1440px'
+      },
       fontFamily: {
         title: ['"Mikado Bold DEMO"', 'sans-serif'],
         brand: ['"Sailec Regular"', 'sans-serif'],

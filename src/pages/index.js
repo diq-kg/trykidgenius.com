@@ -8,8 +8,7 @@ function IndexPage() {
   return (
     <Layout>
       <SEO title="Try Kidgenius" keywords={[`daycare`, `childcare`, `saas`]} />
-
-      <div className="flex">Content</div>
+      <p>Content</p>
     </Layout>
   );
 }

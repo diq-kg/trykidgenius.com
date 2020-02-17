@@ -20,10 +20,11 @@ function Layout({ children }) {
         }
       `}
       render={data => (
-        <body>
+        <div className="mx-auto max-w-screen-brand">
           <Header />
-          {children}
-        </body>
+
+          <div className="p-4">{children}</div>
+        </div>
       )}
     />
   );
