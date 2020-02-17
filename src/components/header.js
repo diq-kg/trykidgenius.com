@@ -27,7 +27,7 @@ function Header({ siteTitle }) {
     <header
       class={`${
         isExpanded ? `` : `h-20`
-      } font-brand lg:flex lg:justify-between lg:items-center lg:pr-3`}
+      } font-brand shadow-sm lg:flex lg:justify-between lg:items-center lg:pr-3`}
     >
       <div className="flex h-20 items-center justify-between px-4 py-3 lg:p0">
         <div className="flex items-center">

@@ -14,6 +14,9 @@ module.exports = {
       screens: {
         brand: '1440px'
       },
+      spacing: {
+        hero: '42.5rem'
+      },
       fontFamily: {
         title: ['"Mikado Bold DEMO"', 'sans-serif'],
         brand: ['"Sailec Regular"', 'sans-serif'],
