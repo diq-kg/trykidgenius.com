@@ -4,12 +4,20 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 import Hero from '../components/hero';
+import Feature from '../components/features';
+import Features from '../components/features';
+import Pad from '../components/pad';
 
 function IndexPage() {
   return (
     <Layout>
       <SEO title="Try Kidgenius" keywords={[`daycare`, `childcare`, `saas`]} />
-      <Hero />
+      <Pad>
+        <Hero />
+      </Pad>
+      <Pad>
+        <Features />
+      </Pad>
     </Layout>
   );
 }

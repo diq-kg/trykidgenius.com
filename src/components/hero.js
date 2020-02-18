@@ -22,7 +22,7 @@ function Blob(props) {
 
 function Hero() {
   return (
-    <div className="flex font-brand pt-8 pb-8 lg:h-hero lg:justify-between lg:items-center">
+    <div className="flex font-brand lg:h-hero lg:justify-between lg:items-center">
       <div>
         <div className="relative">
           <h1 className="text-5xl leading-tight font-brand-bold pb-4">
