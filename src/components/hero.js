@@ -27,7 +27,7 @@ function Hero() {
         <div className="relative">
           <h1 className="text-5xl leading-tight font-brand-bold pb-4">
             Manage and grow
-            <br className="hidden sm:block" /> your daycare.
+            <br className="hidden sm:block" /> your daycare
           </h1>
           <p className="text-lg pt-2 pb-4">
             KidGenius is a platform designed for daycares to track,
@@ -38,7 +38,7 @@ function Hero() {
             <button className="w-40 h-12 mr-4 rounded bg-brand-primary">
               Get started
             </button>
-            <button className="w-40 h-12 rounded border-2">Request demo</button>
+            <button className="w-40 h-12 rounded border-2">Try demo</button>
           </div>
         </div>
       </div>

@@ -9,14 +9,16 @@ module.exports = {
         'brand-secondary': '#EEFBF6',
         gray: {
           ...colors.gray,
-          brand: '#222222'
+          brand: '#222222',
+          'brand-light': '#6F767E'
         }
       },
       screens: {
         brand: '1440px'
       },
       spacing: {
-        hero: '42.5rem'
+        hero: '42.5rem',
+        card: '22rem'
       },
       fontFamily: {
         title: ['"Mikado Bold DEMO"', 'sans-serif'],
