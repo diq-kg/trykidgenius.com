@@ -9,7 +9,8 @@ module.exports = {
         'brand-secondary': '#EEFBF6',
         gray: {
           ...colors.gray,
-          brand: '#222222'
+          brand: '#222222',
+          'brand-light': '#6F767E'
         }
       },
       screens: {

@@ -27,7 +27,7 @@ function Hero() {
         <div className="relative">
           <h1 className="text-5xl leading-tight font-brand-bold pb-4">
             Manage and grow
-            <br className="hidden sm:block" /> your daycare.
+            <br className="hidden sm:block" /> your daycare
           </h1>
           <p className="text-lg pt-2 pb-4">
             KidGenius is a platform designed for daycares to track,
