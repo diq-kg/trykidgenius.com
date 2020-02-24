@@ -38,7 +38,7 @@ function Hero() {
             <button className="w-40 h-12 mr-4 rounded bg-brand-primary">
               Get started
             </button>
-            <button className="w-40 h-12 rounded border-2">Try demo</button>
+            <button className="w-40 h-12 rounded border-2">Request demo</button>
           </div>
         </div>
       </div>
