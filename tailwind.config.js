@@ -19,7 +19,9 @@ module.exports = {
       spacing: {
         hero: '42.5rem',
         card: '22rem',
-        pricecard: '33.75rem'
+        pricecard: '33.75rem',
+        quotex: '22rem',
+        quotey: '22.5rem'
       },
       fontFamily: {
         title: ['"Mikado Bold DEMO"', 'sans-serif'],

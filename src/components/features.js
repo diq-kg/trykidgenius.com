@@ -50,7 +50,7 @@ function Features() {
   return (
     <div className="flex flex-wrap pt-5 m:p-0">
       <div className="w-full">
-        <h2 className="text-3xl text-center font-extrabold mb-4">
+        <h2 className="text-3xl text-center font-brand-bold mb-4">
           Everything you need to manage in one place
         </h2>
       </div>
@@ -89,7 +89,7 @@ function Features() {
           icon={features[4].icon}
         />
       </div>
-      <div className="flex justify-center w-full py-5 px-5 sm:w-1/2 sm:justify-start sm:p-0 sm:px-5">
+      <div className="flex justify-center w-full pt-5 px-5 sm:w-1/2 sm:justify-start sm:p-0 sm:px-5">
         <FeatureCard
           title={features[5].title}
           desc={features[5].desc}

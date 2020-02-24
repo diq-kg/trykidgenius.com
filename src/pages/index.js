@@ -7,6 +7,7 @@ import Hero from '../components/hero';
 import Features from '../components/features';
 import Pricing from '../components/pricing';
 import Pad from '../components/pad';
+import Quotes from '../components/quotes';
 
 function IndexPage() {
   return (
@@ -20,6 +21,9 @@ function IndexPage() {
       </Pad>
       <Pad>
         <Pricing />
+      </Pad>
+      <Pad>
+        <Quotes />
       </Pad>
     </Layout>
   );
