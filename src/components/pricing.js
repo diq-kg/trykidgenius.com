@@ -4,7 +4,7 @@ import Checkmark from './feature-icons/checkmark';
 function Pricing() {
   return (
     <div className="flex flex-col justify-center items-center">
-      <h2 className="text-3xl text-center font-brand-bold">
+      <h2 className="text-4xl text-center font-brand-bold">
         One simple pricing plan, no surprises
       </h2>
       <p className="pt-4 pb-10">
