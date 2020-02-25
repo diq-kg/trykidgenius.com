@@ -5,11 +5,9 @@ import dog from '../images/thisisfine.jpg';
 
 function QuoteCard(props) {
   return (
-    <div className="flex lg:flex-row justify-center text-center">
-      <div className="flex flex-col mb-8 lg:mb-0 lg:mx-4 justify-between items-start w-quotex h-quotey px-4 pt-4 pb-6 shadow-lg rounded-md">
-        <p className="text-left text-lg">{props.quote}</p>
-        <PersonCard name={props.name} title={props.title} image={props.image} />
-      </div>
+    <div className="mb-8 flex flex-col lg:mb-0 lg:mx-2 justify-between items-start w-quotex h-quotey px-4 pt-4 pb-6 shadow-lg rounded-md">
+      <p className="text-left text-lg">{props.quote}</p>
+      <PersonCard name={props.name} title={props.title} image={props.image} />
     </div>
   );
 }
@@ -43,16 +41,15 @@ function Quotes() {
       <h2 className="text-4xl font-brand-bold text-center">
         Loved by both staff and parents
       </h2>
-      <div className="mt-10">
+      <div className="mt-10 flex flex-col lg:flex-row justify-center items-center">
+        {' '}
         {quotes.map(quote => (
-          <div className="px-4">
-            <QuoteCard
-              title={quote.title}
-              name={quote.name}
-              quote={quote.quote}
-              image={quote.image}
-            />
-          </div>
+          <QuoteCard
+            title={quote.title}
+            name={quote.name}
+            quote={quote.quote}
+            image={quote.image}
+          />
         ))}
       </div>
     </div>
