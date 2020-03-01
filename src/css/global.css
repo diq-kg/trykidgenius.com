@@ -16,3 +16,8 @@
   font-family: 'Sailec Medium';
   src: url('../fonts/sailec_medium.woff2');
 }
+
+@font-face {
+  font-family: 'Mikado Bold DEMO';
+  src: url('../fonts/MikadoBold_DEMO.woff');
+}
