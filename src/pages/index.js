@@ -18,10 +18,10 @@ function IndexPage() {
         <Hero />
       </Pad>
       <Pad>
-        <Features />
+        <Features id="features" />
       </Pad>
       <Pad>
-        <Pricing />
+        <Pricing id="pricing" />
       </Pad>
       <Pad>
         <Quotes />

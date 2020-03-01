@@ -7,7 +7,7 @@ import Paper from './feature-icons/paper';
 import Message from './feature-icons/message';
 import Lock from './feature-icons/lock';
 
-function Features() {
+function Features(props) {
   const features = [
     {
       title: 'Attendance',
@@ -48,7 +48,7 @@ function Features() {
   ];
 
   return (
-    <div className="flex flex-wrap pt-5 m:p-0">
+    <div id={props.id} className="flex flex-wrap pt-5 m:p-0">
       <div className="w-full">
         <h2 className="text-4xl text-center font-brand-bold mb-4">
           Everything you need to manage in one place

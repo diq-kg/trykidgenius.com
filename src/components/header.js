@@ -23,6 +23,22 @@ function Header({ siteTitle }) {
     }
   }
 
+  function login() {
+    window.location.href = 'https://kidgenius.daycareiq.com/session/new';
+  }
+
+  function signUp() {
+    window.location.href = 'https://kidgenius.daycareiq.com/account/new';
+  }
+
+  function startDemo() {
+    window.location.href = 'https://kidgenius.daycareiq.com/login_demo';
+  }
+
+  function requestDemo() {
+    window.location.href = '';
+  }
+
   return (
     <header
       class={`${
@@ -53,13 +69,13 @@ function Header({ siteTitle }) {
       >
         <a
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 lg:p0 lg:px-4 lg:pt-3"
-          href="#"
+          href="#features"
         >
           Features
         </a>
         <a
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:p0 lg:px-4 lg:ml-2 lg:pt-3"
-          href="#"
+          href="#pricing"
         >
           Pricing
         </a>
@@ -75,10 +91,16 @@ function Header({ siteTitle }) {
         >
           FAQ
         </a>
-        <button className="block w-32 h-12 border-2 bg-white font-semibold hover:bg-gray-300 rounded mt-2 ml-2 lg:mt-0 lg:ml-10">
+        <button
+          onClick={login}
+          className="block w-32 h-12 border-2 bg-white font-semibold hover:bg-gray-300 rounded mt-2 ml-2 lg:mt-0 lg:ml-10"
+        >
           Login
         </button>
-        <button className="block w-32 h-12 bg-brand-primary font-semibold hover:bg-gray-300 rounded mt-2 ml-2 lg:mt-0 lg:ml-4">
+        <button
+          onClick={signUp}
+          className="block w-32 h-12 bg-brand-primary font-semibold hover:bg-gray-300 rounded mt-2 ml-2 lg:mt-0 lg:ml-4"
+        >
           Sign Up
         </button>
       </div>
