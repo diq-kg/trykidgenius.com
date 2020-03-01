@@ -36,9 +36,9 @@ function Hero() {
           </p>
           <div className="">
             <button className="w-40 h-12 mr-4 rounded bg-brand-primary">
-              Get started
+              Get Started
             </button>
-            <button className="w-40 h-12 rounded border-2">Request demo</button>
+            <button className="w-40 h-12 rounded border-2">Request Demo</button>
           </div>
         </div>
       </div>

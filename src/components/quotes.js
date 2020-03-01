@@ -37,7 +37,7 @@ function Quotes() {
     }
   ];
   return (
-    <div className="flex flex-col justify-start items-center">
+    <div className="flex flex-col justify-start items-center lg:mt-12">
       <h2 className="text-4xl font-brand-bold text-center">
         Loved by both staff and parents
       </h2>
