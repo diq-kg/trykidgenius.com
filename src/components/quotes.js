@@ -43,8 +43,9 @@ function Quotes() {
       </h2>
       <div className="mt-10 flex flex-col lg:flex-row justify-center items-center">
         {' '}
-        {quotes.map(quote => (
+        {quotes.map((quote, idx) => (
           <QuoteCard
+            key={idx}
             title={quote.title}
             name={quote.name}
             quote={quote.quote}

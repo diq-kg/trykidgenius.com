@@ -8,17 +8,11 @@ function Header({ siteTitle }) {
   function menuButton(show) {
     if (show) {
       return (
-        <path
-          fill-rule="evenodd"
-          d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
-        />
+        <path d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
       );
     } else {
       return (
-        <path
-          fill-rule="evenodd"
-          d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-        />
+        <path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
       );
     }
   }
@@ -41,14 +35,16 @@ function Header({ siteTitle }) {
 
   return (
     <header
-      class={`${
+      className={`${
         isExpanded ? `` : `h-20`
       } font-brand shadow-sm lg:flex lg:justify-between lg:items-center lg:pr-3`}
     >
       <div className="flex h-20 items-center justify-between px-4 py-3 lg:p0">
         <div className="flex items-center">
           <div className="w-8 h-8 rounded-lg bg-brand-primary"></div>
-          <span className="text-3xl font-bold ml-2 font-title">KidGenius</span>
+          <Link to="/" className="text-3xl font-bold ml-2 font-title">
+            KidGenius
+          </Link>
         </div>
         <div className="lg:hidden">
           <button
@@ -63,7 +59,7 @@ function Header({ siteTitle }) {
         </div>
       </div>
       <div
-        class={`${
+        className={`${
           isExpanded ? 'block' : 'hidden'
         } px-2 pt-4 pb-4 text-gray-brand lg:flex lg:p0`}
       >
@@ -85,12 +81,12 @@ function Header({ siteTitle }) {
         >
           Resources
         </a>
-        <a
+        <Link
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
-          href="#"
+          to="/faq"
         >
           FAQ
-        </a>
+        </Link>
         <button
           onClick={login}
           className="block w-32 h-12 border-2 bg-white font-semibold hover:bg-gray-300 rounded mt-2 ml-2 lg:mt-0 lg:ml-10"
