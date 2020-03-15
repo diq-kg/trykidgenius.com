@@ -57,7 +57,7 @@ function Pricing(props) {
           </div>
         </div>
         <button className="w-full h-12 mt-6 rounded-sm text-white bg-brand-primary transition duration-150 ease-in-out hover:shadow-md">
-          Start free trail
+          Start free trial
         </button>
         <p className="text-gray-brand-light text-sm pt-5">
           No credit card required!
