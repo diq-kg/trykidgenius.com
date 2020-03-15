@@ -56,7 +56,7 @@ function Pricing(props) {
             <p className="font-bold">Monthly child attandance reports</p>
           </div>
         </div>
-        <button className="w-full h-12 mt-6 rounded-sm text-white bg-brand-primary">
+        <button className="w-full h-12 mt-6 rounded-sm text-white bg-brand-primary transition duration-150 ease-in-out hover:shadow-md">
           Start free trail
         </button>
         <p className="text-gray-brand-light text-sm pt-5">

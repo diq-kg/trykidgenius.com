@@ -13,7 +13,9 @@ function SimpleCard(props) {
       </div>
       <h3 className="text-2xl font-semibold">{props.title}</h3>
       <p className="text-center">{props.body}</p>
-      <button className={`w-48 h-12 mr-4 rounded font-semibold ${buttonColor}`}>
+      <button
+        className={`w-48 h-12 mr-4 rounded font-semibold ${buttonColor} transition duration-150 ease-in-out hover:shadow-md`}
+      >
         {props.action}
       </button>
     </div>
