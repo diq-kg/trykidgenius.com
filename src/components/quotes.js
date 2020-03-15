@@ -1,13 +1,11 @@
 import React from 'react';
 import PersonCard from '../components/person-card';
 
-import dog from '../images/thisisfine.jpg';
-
 function QuoteCard(props) {
   return (
     <div className="mb-8 flex flex-col lg:mb-0 lg:mx-2 justify-evenly items-start w-quotex h-quotey px-4 pt-4 pb-6 shadow-lg rounded-md">
       <p className="text-left text-lg">{props.quote}</p>
-      <PersonCard name={props.name} title={props.title} image={props.image} />
+      <PersonCard name={props.name} title={props.title} />
     </div>
   );
 }
@@ -18,22 +16,19 @@ function Quotes() {
       quote:
         "It is an excellent way to keep in communication with the teachers and caregivers. I can receive daily reports of my child's school activities through a single channel",
       title: 'Parent',
-      name: 'Lucía O',
-      image: dog
+      name: 'Lucía O'
     },
     {
       quote:
         'The way that the menu and whole site is set up, I like how everything is easy to access and ready to use right away. Easy to train someone to use it as well which is always really helpful.',
       title: 'Childcare Worker',
-      name: 'Nicole C',
-      image: dog
+      name: 'Nicole C'
     },
     {
       quote:
         'It is incredibly helpful for administration, especially for Alberta Child Care Claims. It also has helped with communication with families, which is paramount in our line of work.',
       title: 'Director',
-      name: 'Delaney C',
-      image: dog
+      name: 'Delaney C'
     }
   ];
   return (
@@ -49,7 +44,6 @@ function Quotes() {
             title={quote.title}
             name={quote.name}
             quote={quote.quote}
-            image={quote.image}
           />
         ))}
       </div>
