@@ -20,7 +20,7 @@ export default function Footer() {
           Privacy Policy
         </Link>
         <Link to="/terms" className="pt-2 pb-2 lg:p-0 lg:px-6 font-semibold">
-          Terms of Use
+          Terms of Service
         </Link>
       </div>
       <div className="flex">

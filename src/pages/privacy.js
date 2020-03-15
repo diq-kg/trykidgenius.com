@@ -48,7 +48,7 @@ function Privacy() {
               Policy from time to time to ensure that you continue to agree with
               all of its terms.
             </p>
-            <p className="pt-2">
+            <p className="pt-4">
               We use anonymous information to analyze our Site traffic. In
               addition, we may use anonymous IP addresses to help diagnose
               problems with our server, to administer our site, or to display
@@ -56,12 +56,12 @@ function Privacy() {
               information may also be shared with business partners and
               advertisers on an aggregate and anonymous basis.
             </p>
-            <p className="pt-2">
+            <p className="pt-4">
               We may use cookies to deliver content specific to your interests
               or for other purposes. Promotions or advertisements displayed on
               our site may contain cookies.
             </p>
-            <p className="pt-2">
+            <p className="pt-4">
               We may disclose personally identifiable information if required to
               do so by law or in the good-faith belief that such action is
               necessary to (1) conform to the edicts of the law, (2) protect and
@@ -69,7 +69,7 @@ function Privacy() {
               under exigent circumstances to protect the safety of the public or
               users of the Site.
             </p>
-            <p className="pt-2">
+            <p className="pt-4">
               Information collected may be stored indefinitely.
             </p>
             <h3 className="text-2xl pt-6">
