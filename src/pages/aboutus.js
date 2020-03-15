@@ -1,13 +1,15 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Pad from '../components/pad';
+import KidsPlayground from '../components/kidsPlayground';
 
 export default function AboutUs() {
   return (
     <Layout>
       <Pad>
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-brand-bold">About Us</h1>
+          <h1 className="text-4xl font-brand-boldi pb-4">About Us</h1>
+          <KidsPlayground></KidsPlayground>
           <div className="w-2/3 sm:w-3/4">
             <p className="pb-4 pt-6">
               We heard over and over again that child care operators really

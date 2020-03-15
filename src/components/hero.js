@@ -1,5 +1,7 @@
 import React from 'react';
 
+import TeacherIllustration from './teacherIllustration';
+
 function Blob(props) {
   return (
     <svg
@@ -20,28 +22,32 @@ function Blob(props) {
 
 function Hero() {
   return (
-    <div className="flex font-brand lg:h-hero lg:justify-between lg:items-center">
-      <div>
-        <div className="relative">
-          <h1 className="text-5xl leading-tight font-brand-bold pb-4">
-            Manage and grow
-            <br className="hidden sm:block" /> your daycare
-          </h1>
-          <p className="text-lg pt-2 pb-4">
-            KidGenius is a platform designed for daycares to track,
-            <br className="hidden sm:block" /> plan, report, and communicate —
-            all in one place.
-          </p>
-          <div className="">
-            <button className="w-40 h-12 mr-4 rounded bg-brand-primary">
-              Get Started
-            </button>
-            <button className="w-40 h-12 rounded border-2">Request Demo</button>
+    <div className="flex justify-center items-center w-auto">
+      <div className="flex font-brand lg:h-hero lg:justify-between lg:items-center lg:w-5/6">
+        <div>
+          <div className="relative">
+            <h1 className="text-5xl leading-tight font-brand-bold pb-4">
+              Manage and grow
+              <br className="hidden sm:block" /> your daycare
+            </h1>
+            <p className="text-lg pt-2 pb-4">
+              KidGenius is a platform designed for daycares to track,
+              <br className="hidden sm:block" /> plan, report, and communicate —
+              all in one place.
+            </p>
+            <div className="">
+              <button className="w-40 h-12 mr-4 rounded bg-brand-primary">
+                Get Started
+              </button>
+              <button className="w-40 h-12 rounded border-2">
+                Request Demo
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="hidden lg:block">
-        <Blob />
+        <div className="hidden lg:block">
+          <TeacherIllustration></TeacherIllustration>
+        </div>
       </div>
     </div>
   );
