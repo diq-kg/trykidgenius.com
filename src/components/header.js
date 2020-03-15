@@ -65,22 +65,22 @@ function Header({ siteTitle }) {
       >
         <a
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 lg:p0 lg:px-4 lg:pt-3"
-          href="#features"
+          href="/#features"
         >
           Features
         </a>
         <a
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:p0 lg:px-4 lg:ml-2 lg:pt-3"
-          href="#pricing"
+          href="/#pricing"
         >
           Pricing
         </a>
-        <a
+        {/* <a
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
           href="#"
         >
           Resources
-        </a>
+        </a> */}
         <Link
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
           to="/faq"
