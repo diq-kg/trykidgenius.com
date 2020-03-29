@@ -14,6 +14,7 @@ function SimpleCard(props) {
       <h3 className="text-2xl font-semibold">{props.title}</h3>
       <p className="text-center">{props.body}</p>
       <button
+        onClick={props.onClick}
         className={`w-48 h-12 mr-4 rounded font-semibold ${buttonColor} transition duration-150 ease-in-out hover:shadow-md`}
       >
         {props.action}
@@ -29,7 +30,9 @@ function Try() {
       action: 'Get Started',
       primary: true,
       body: 'Try Kidgenius free for 30 days, no credit card required.',
-      icon: <Baby />
+      icon: <Baby />,
+      onClick: () =>
+        (window.location.href = 'https://kidgenius.daycareiq.com/account/new')
     },
     {
       title: 'See How It Works',
@@ -37,13 +40,14 @@ function Try() {
       primary: false,
       body:
         'Our team is happy to walk you through the product and answer questions.',
-      icon: <Laptop />
+      icon: <Laptop />,
+      onClick: () => window.chaport.open()
     }
   ];
 
   return (
     <div className="flex flex-col items-center lg:mt-16">
-      <h1 className="font-brand-bold text-4xl text-center">
+      <h1 className="font-brand-bold text-heading text-center">
         Try Kidgenius free for 30 days
       </h1>
       <div className="flex flex-col lg:flex-row items-center justify-start lg:justify-center mt-6">
@@ -53,6 +57,7 @@ function Try() {
           body={cards[0].body}
           primary={cards[0].primary}
           action={cards[0].action}
+          onClick={cards[0].onClick}
         />
         <div className="w-64 lg:w-0 lg:h-64 border mt-10 mb-10 lg:m0 lg:mr-32 lg:ml-32"></div>
         <SimpleCard
@@ -61,6 +66,7 @@ function Try() {
           body={cards[1].body}
           primary={cards[1].primary}
           action={cards[1].action}
+          onClick={cards[1].onClick}
         />
       </div>
     </div>

@@ -50,7 +50,7 @@ function Features(props) {
   return (
     <div id={props.id} className="flex flex-wrap pt-5 m:p-0">
       <div className="w-full">
-        <h2 className="text-4xl text-center font-brand-bold mb-4">
+        <h2 className="text-heading text-center font-brand-bold mb-4">
           Everything you need to manage in one place
         </h2>
       </div>

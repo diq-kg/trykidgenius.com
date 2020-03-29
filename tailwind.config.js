@@ -29,6 +29,9 @@ module.exports = {
         'brand-bold': ['"Sailec Bold"', 'sans-serif'],
         'brand-medium': ['"Sailec Medium"', 'sans-serif']
       },
+      fontSize: {
+        heading: '2rem'
+      },
       zIndex: {
         '-10': '-10'
       }

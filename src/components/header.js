@@ -22,15 +22,8 @@ function Header({ siteTitle }) {
   }
 
   function signUp() {
-    window.location.href = 'https://kidgenius.daycareiq.com/account/new';
-  }
-
-  function startDemo() {
-    window.location.href = 'https://kidgenius.daycareiq.com/login_demo';
-  }
-
-  function requestDemo() {
-    window.location.href = '';
+    window.location.href =
+      'https://kidgenius.daycareiq.com/account/new?from=kidgenius_home_page_button';
   }
 
   return (
@@ -81,12 +74,12 @@ function Header({ siteTitle }) {
         >
           Resources
         </a> */}
-        {/* <Link
+        <Link
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
           to="/faq"
         >
           FAQ
-        </Link> */}
+        </Link>
         <Link
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
           to="/aboutus"
@@ -101,7 +94,7 @@ function Header({ siteTitle }) {
         </button>
         <button
           onClick={signUp}
-          className="block w-32 h-12 bg-brand-primary font-semibold hover:bg-gray-300 rounded mt-2 ml-2 lg:mt-0 lg:ml-4"
+          className="block w-32 h-12 bg-brand-primary text-white font-semibold hover:bg-gray-300 rounded mt-2 ml-2 lg:mt-0 lg:ml-4"
         >
           Sign Up
         </button>

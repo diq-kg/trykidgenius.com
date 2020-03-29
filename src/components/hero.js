@@ -21,6 +21,14 @@ function Blob(props) {
 }
 
 function Hero() {
+  function getStarted() {
+    window.location.href = 'https://kidgenius.daycareiq.com/account/new';
+  }
+
+  function tryDemo() {
+    window.location.href = 'https://kidgenius.daycareiq.com/login_demo';
+  }
+
   return (
     <div className="flex justify-center items-center w-auto">
       <div className="flex font-brand lg:h-hero lg:justify-between lg:items-center lg:w-5/6">
@@ -36,11 +44,17 @@ function Hero() {
               all in one place.
             </p>
             <div className="">
-              <button className="w-40 h-12 mr-4 rounded bg-brand-primary transition duration-150 ease-in-out hover:shadow-md">
+              <button
+                onClick={getStarted}
+                className="w-40 h-12 mr-4 text-white font-bold rounded bg-brand-primary transition duration-150 ease-in-out hover:shadow-md"
+              >
                 Get Started
               </button>
-              <button className="w-40 h-12 rounded border-2 transition duration-150 ease-in-out hover:shadow-md">
-                Request Demo
+              <button
+                onClick={tryDemo}
+                className="w-40 h-12 rounded border-2 transition duration-150 ease-in-out hover:shadow-md"
+              >
+                Try Demo
               </button>
             </div>
           </div>

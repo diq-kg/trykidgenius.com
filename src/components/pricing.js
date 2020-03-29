@@ -2,24 +2,34 @@ import React from 'react';
 import Checkmark from './feature-icons/checkmark';
 
 function Pricing(props) {
+  function openChat() {
+    window.chaport.open();
+  }
+
+  function signUp() {
+    window.location.href = 'https://kidgenius.daycareiq.com/account/new?from=';
+  }
+
   return (
     <div
       id={props.id}
       className="flex flex-col justify-center items-center lg:mt-12"
     >
-      <h2 className="text-4xl text-center font-brand-bold">
+      <h2 className="text-heading text-center font-brand-bold">
         One simple pricing plan, no surprises
       </h2>
       <p className="pt-4 pb-10">
         Have questions?{' '}
-        <a href="#" className="font-bold text-brand-primary">
+        <button onClick={openChat} className="font-bold text-brand-primary">
           Let's chat
-        </a>
+        </button>
       </p>
       <div className="flex flex-col justify-start items-center text-center rounded-md mx-1 my-4 p-5 bg-brand-secondary sm:w-pricecard">
         <div className="flex justify-start items-baseline">
           <span className="text-6xl">$1</span>
-          <p>/month per child</p>
+          <p>
+            <span className="text-black">USD</span>/month per child
+          </p>
         </div>
         <p>Everything you need to manage and grow your daycare.</p>
         <p className="p-2">Start free for 30 days!</p>
@@ -56,7 +66,10 @@ function Pricing(props) {
             <p className="font-bold">Monthly child attandance reports</p>
           </div>
         </div>
-        <button className="w-full h-12 mt-6 rounded-sm text-white bg-brand-primary transition duration-150 ease-in-out hover:shadow-md">
+        <button
+          onClick={signUp}
+          className="w-full h-12 mt-6 rounded-sm text-white bg-brand-primary transition duration-150 ease-in-out hover:shadow-md"
+        >
           Start free trial
         </button>
         <p className="text-gray-brand-light text-sm pt-5">
