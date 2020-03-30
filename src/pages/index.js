@@ -14,7 +14,7 @@ import Faq from '../components/faq';
 function IndexPage() {
   return (
     <Layout>
-      <SEO title="Try Kidgenius" keywords={[`daycare`, `childcare`, `saas`]} />
+      <SEO title="TryKidgenius" />
       <Pad>
         <Hero />
       </Pad>

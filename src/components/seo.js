@@ -15,7 +15,7 @@ function SEO({ description, lang, meta, keywords, title }) {
             htmlAttributes={{
               lang
             }}
-            title={title}
+            title={data.title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
@@ -24,7 +24,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:title`,
-                content: title
+                content: data.title
               },
               {
                 property: `og:description`,
@@ -44,7 +44,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `twitter:title`,
-                content: title
+                content: data.title
               },
               {
                 name: `twitter:description`,
@@ -55,7 +55,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 keywords.length > 0
                   ? {
                       name: `keywords`,
-                      content: keywords.join(`, `)
+                      content: data.keywords.join(`, `)
                     }
                   : []
               )
@@ -90,6 +90,7 @@ const detailsQuery = graphql`
         title
         description
         author
+        keywords
       }
     }
   }

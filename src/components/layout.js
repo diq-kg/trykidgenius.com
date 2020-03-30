@@ -13,8 +13,6 @@ function Layout({ children }) {
           site {
             siteMetadata {
               title
-              github
-              blog
             }
           }
         }
