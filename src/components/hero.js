@@ -1,32 +1,15 @@
 import React from 'react';
 
 import TeacherIllustration from './teacherIllustration';
-
-function Blob(props) {
-  return (
-    <svg
-      className={`${props.customStyles}`}
-      width="467"
-      height="438"
-      viewBox="0 0 467 438"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M277.352 436.954C154.094 424.421 52.0726 334.113 7.36981 219C-37.3329 103.887 130.974 5.8284 252.198 0.210408C373.421 -5.40758 467 102.297 467 224.974C467 347.651 400.611 449.487 277.352 436.954Z"
-        fill="#EEFBF6"
-      />
-    </svg>
-  );
-}
+import { register, demo } from './urls';
 
 function Hero() {
   function getStarted() {
-    window.location.href = 'https://kidgenius.daycareiq.com/account/new';
+    window.location.href = register;
   }
 
   function tryDemo() {
-    window.location.href = 'https://kidgenius.daycareiq.com/login_demo';
+    window.location.href = demo;
   }
 
   return (

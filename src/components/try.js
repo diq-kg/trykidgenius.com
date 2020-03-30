@@ -1,6 +1,7 @@
 import React from 'react';
 import Baby from './feature-icons/baby';
 import Laptop from './feature-icons/laptop';
+import { register } from './urls';
 
 function SimpleCard(props) {
   const buttonColor = props.primary
@@ -31,8 +32,7 @@ function Try() {
       primary: true,
       body: 'Try Kidgenius free for 30 days, no credit card required.',
       icon: <Baby />,
-      onClick: () =>
-        (window.location.href = 'https://kidgenius.daycareiq.com/account/new')
+      onClick: () => (window.location.href = register)
     },
     {
       title: 'See How It Works',

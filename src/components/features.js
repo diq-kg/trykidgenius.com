@@ -22,7 +22,7 @@ function Features(props) {
       icon: <Report />
     },
     {
-      title: 'Bulletin Bord',
+      title: 'Bulletin Board',
       desc:
         'Meal schedules, annoucements, activties, and forms for parents to read.',
       icon: <Board />
