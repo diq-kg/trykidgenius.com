@@ -9,14 +9,12 @@ function SEO({ description, lang, meta, keywords, title }) {
     <StaticQuery
       query={detailsQuery}
       render={data => {
-        const metaDescription =
-          description || data.site.siteMetadata.description;
         return (
           <Helmet
             htmlAttributes={{
               lang
             }}
-            title={data.title}
+            title={data.site.siteMetadata.title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
@@ -62,6 +60,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 name: `twitter:title`,
                 content: data.site.siteMetadata.title
+              },
+              {
+                name: `twitter:image`,
+                content: illustration
               },
               {
                 name: `twitter:description`,
@@ -120,7 +122,6 @@ const detailsQuery = graphql`
         description
         author
         keywords
-        image
         url
         fbAppId
       }

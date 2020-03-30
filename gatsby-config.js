@@ -15,21 +15,20 @@ module.exports = {
       'childcare software',
       'attendance tracking software'
     ],
-    fbAppId: '773103229471525',
-    image: '/images/illustration.png'
+    fbAppId: '773103229471525'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `KidGenius.com`,
+        short_name: `kg.com`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`
+        icon: `src/images/icon.png`
       }
     },
     `gatsby-plugin-postcss`,
