@@ -1,5 +1,6 @@
 import React from 'react';
 import Checkmark from './feature-icons/checkmark';
+import { register } from './urls';
 
 function Pricing(props) {
   function openChat() {
@@ -7,7 +8,7 @@ function Pricing(props) {
   }
 
   function signUp() {
-    window.location.href = 'https://kidgenius.daycareiq.com/account/new?from=';
+    window.location.href = register;
   }
 
   return (
