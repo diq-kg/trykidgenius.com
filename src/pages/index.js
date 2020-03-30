@@ -9,6 +9,7 @@ import Pricing from '../components/pricing';
 import Pad from '../components/pad';
 import Try from '../components/try';
 import Quotes from '../components/quotes';
+import Faq from '../components/faq';
 
 function IndexPage() {
   return (
@@ -22,6 +23,9 @@ function IndexPage() {
       </Pad>
       <Pad>
         <Pricing id="pricing" />
+      </Pad>
+      <Pad>
+        <Faq id="faq" />
       </Pad>
       <Pad>
         <Quotes />

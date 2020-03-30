@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 
 import FB from './feature-icons/fb';
 import Twitter from './feature-icons/twitter';
-import LinkedIn from './feature-icons/linkedin';
 
 export default function Footer() {
   return (
@@ -24,15 +23,12 @@ export default function Footer() {
         </Link>
       </div>
       <div className="flex">
-        <Link to="#" className="px-2">
+        <a href="https://www.facebook.com/daycareiq/" className="px-2">
           <FB />
-        </Link>
-        <Link to="#" className="px-2">
+        </a>
+        <a href="https://twitter.com/Daycareiq" className="px-2">
           <Twitter />
-        </Link>
-        <Link to="#" className="px-2">
-          <LinkedIn />
-        </Link>
+        </a>
       </div>
     </div>
   );

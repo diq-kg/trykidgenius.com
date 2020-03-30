@@ -74,12 +74,12 @@ function Header({ siteTitle }) {
         >
           Resources
         </a> */}
-        <Link
+        <a
+          href="/#faq"
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
-          to="/faq"
         >
           FAQ
-        </Link>
+        </a>
         <Link
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
           to="/aboutus"
