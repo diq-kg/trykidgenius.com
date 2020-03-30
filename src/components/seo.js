@@ -1,7 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Helmet from "react-helmet";
-import { StaticQuery, graphql } from "gatsby";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
+import illustration from '../images/illustration.png';
 
 function SEO({ description, lang, meta, keywords, title }) {
   return (
@@ -20,15 +21,31 @@ function SEO({ description, lang, meta, keywords, title }) {
             meta={[
               {
                 name: `description`,
-                content: metaDescription
+                content: data.site.siteMetadata.description
               },
               {
                 property: `og:title`,
-                content: data.title
+                content: data.site.siteMetadata.title
+              },
+              {
+                property: `og:url`,
+                content: data.site.siteMetadata.url
+              },
+              {
+                property: `og:site_name`,
+                content: data.site.siteMetadata.title
               },
               {
                 property: `og:description`,
-                content: metaDescription
+                content: data.site.siteMetadata.description
+              },
+              {
+                property: `og:fb_appid`,
+                content: data.site.siteMetadata.fbAppId
+              },
+              {
+                property: `og:image`,
+                content: illustration
               },
               {
                 property: `og:type`,
@@ -36,7 +53,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `twitter:card`,
-                content: `summary`
+                content: `summary_large_image`
               },
               {
                 name: `twitter:creator`,
@@ -44,18 +61,18 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `twitter:title`,
-                content: data.title
+                content: data.site.siteMetadata.title
               },
               {
                 name: `twitter:description`,
-                content: metaDescription
+                content: data.site.siteMetadata.description
               }
             ]
               .concat(
-                keywords.length > 0
+                data.site.siteMetadata.keywords.length > 0
                   ? {
                       name: `keywords`,
-                      content: data.keywords.join(`, `)
+                      content: data.site.siteMetadata.keywords.join(`, `)
                     }
                   : []
               )
@@ -66,6 +83,18 @@ function SEO({ description, lang, meta, keywords, title }) {
     />
   );
 }
+
+/*
+<meta property="og:title" content="KidGenius - Home" />
+<meta property="og:url" content="https://kidgenius.daycareiq.com/" />
+<meta property="og:site_name" content="KidGenius" />
+<meta property="og:image" content="https://kidgenius.daycareiq.com/images/daycareiq_logo.png" />
+<meta property="og:description" content="KidGenius is the easy way to manage a daycare.">
+<meta property="fb:app_id" content="773103229471525" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@daycareiq">
+<meta name="twitter:creator" content="@daycareiq"></meta>
+*/
 
 SEO.defaultProps = {
   lang: `en`,
@@ -91,6 +120,9 @@ const detailsQuery = graphql`
         description
         author
         keywords
+        image
+        url
+        fbAppId
       }
     }
   }

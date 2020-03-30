@@ -3,6 +3,7 @@ module.exports = {
     title: `KidGenius`,
     author: `@daycareiq`,
     description: `KidGenius is the easy way to manage a daycare.`,
+    url: 'https://www.trykidgenius.com',
     keywords: [
       'daycare',
       'dayhome',
@@ -12,8 +13,10 @@ module.exports = {
       'early childhood',
       'daycare management software',
       'childcare software',
-      'attendance tracking software',
+      'attendance tracking software'
     ],
+    fbAppId: '773103229471525',
+    image: '/images/illustration.png'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,22 +29,22 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
-      },
+        icon: `src/images/tailwind-icon.png`
+      }
     },
     `gatsby-plugin-postcss`,
     {
       resolve: 'gatsby-plugin-purgecss',
       options: {
         tailwind: true,
-        purgeOnly: ['src/css/style.css', 'src/css/global.css'],
-      },
+        purgeOnly: ['src/css/style.css', 'src/css/global.css']
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-162185683-1',
-      },
-    },
-  ],
+        trackingId: 'UA-162185683-1'
+      }
+    }
+  ]
 };
