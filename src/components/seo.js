@@ -62,8 +62,16 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: data.site.siteMetadata.title
               },
               {
-                name: `twitter:image`,
+                name: `twitter:image:src`,
                 content: illustration
+              },
+              {
+                name: `twitter:image:width`,
+                content: '1092'
+              },
+              {
+                name: `twitter:image:height`,
+                content: '1018'
               },
               {
                 name: `twitter:description`,

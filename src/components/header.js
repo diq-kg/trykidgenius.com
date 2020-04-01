@@ -39,7 +39,13 @@ function Header({ siteTitle }) {
             KidGenius
           </Link>
         </div>
-        <div className="lg:hidden">
+        <div className="lg:hidden flex">
+          <button
+            onClick={login}
+            className="block w-20 h-12 border-2 mr-2 bg-white font-semibold hover:bg-gray-300 rounded"
+          >
+            Login
+          </button>
           <button
             className="block text-gray-brand hover:text-gray-700 focus:text-gray-700 focus:outline-none"
             onClick={() => toggleExpansion(!isExpanded)}
