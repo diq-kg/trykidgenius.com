@@ -89,7 +89,7 @@ function Header({ siteTitle }) {
         >
           FAQ
         </a>
-        <span className="sm:hidden lg:block ml-2">
+        <span className="hidden lg:block ml-2">
           <Dropdown items={dropDownItems}></Dropdown>
         </span>
         <button
