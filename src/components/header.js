@@ -1,9 +1,21 @@
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
+import Dropdown from './dropdown';
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
+
+  const dropDownItems = [
+    {
+      label: 'Daycare Login',
+      url: 'https://kidgenius.daycareiq.com/session/new',
+    },
+    {
+      label: 'Parents Login',
+      url: 'https://parents.trykidgenius.com/session/new',
+    },
+  ];
 
   function menuButton(show) {
     if (show) {
@@ -40,12 +52,9 @@ function Header({ siteTitle }) {
           </Link>
         </div>
         <div className="lg:hidden flex">
-          <button
-            onClick={login}
-            className="block w-20 h-12 border-2 mr-2 bg-white font-semibold hover:bg-gray-300 rounded"
-          >
-            Login
-          </button>
+          <span className="mr-2">
+            <Dropdown items={dropDownItems}></Dropdown>
+          </span>
           <button
             className="block text-gray-brand hover:text-gray-700 focus:text-gray-700 focus:outline-none"
             onClick={() => toggleExpansion(!isExpanded)}
@@ -74,30 +83,15 @@ function Header({ siteTitle }) {
         >
           Pricing
         </a>
-        {/* <a
-          className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
-          href="#"
-        >
-          Resources
-        </a> */}
         <a
           href="/#faq"
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
         >
           FAQ
         </a>
-        <Link
-          className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
-          to="/aboutus"
-        >
-          About Us
-        </Link>
-        <button
-          onClick={login}
-          className="block w-32 h-12 border-2 bg-white font-semibold hover:bg-gray-300 rounded mt-2 ml-2 lg:mt-0 lg:ml-10"
-        >
-          Login
-        </button>
+        <span className="sm:hidden lg:block ml-2">
+          <Dropdown items={dropDownItems}></Dropdown>
+        </span>
         <button
           onClick={signUp}
           className="block w-32 h-12 bg-brand-primary text-white font-semibold hover:bg-gray-300 rounded mt-2 ml-2 lg:mt-0 lg:ml-4"
@@ -110,11 +104,11 @@ function Header({ siteTitle }) {
 }
 
 Header.propTypes = {
-  siteTitle: PropTypes.string
+  siteTitle: PropTypes.string,
 };
 
 Header.defaultProps = {
-  siteTitle: ``
+  siteTitle: ``,
 };
 
 export default Header;
