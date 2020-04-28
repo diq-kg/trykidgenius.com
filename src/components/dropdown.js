@@ -20,7 +20,7 @@ function DropDown(props) {
         <span className="rounded-md shadow-sm">
           <button
             type="button"
-            className="inline-flex justify-center rounded-md border-2 px-2 w-32 h-12 font-semibold bg-white hover:bg-gray-200 active:bg-gray-50 transition ease-in-out duration-150"
+            className="inline-flex justify-center items-center rounded-md border-2 px-2 w-32 h-12 font-semibold bg-white hover:bg-gray-200 active:bg-gray-50 transition ease-in-out duration-150"
             onClick={() => toggle(!open)}
           >
             Login

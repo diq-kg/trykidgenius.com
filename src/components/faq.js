@@ -49,7 +49,7 @@ export default function Faq(props) {
                   </button>
                 </dt>
                 <dd className={`mt-2 pr-12 ${openPanel === 0 ? '' : 'hidden'}`}>
-                  <p className="text-base leading-6 text-gray-500">
+                  <p className="text-base leading-6 text-gray-700">
                     KidGenius is a web app designed to help connect child care
                     providers and parents. Child care operators can keep track
                     of things like naps, activities, meals and more. Staff can
@@ -90,7 +90,7 @@ export default function Faq(props) {
                   <dd
                     className={`mt-2 pr-12 ${openPanel === 1 ? '' : 'hidden'}`}
                   >
-                    <p className="text-base leading-6 text-gray-500">
+                    <p className="text-base leading-6 text-gray-700">
                       No, centres and staff can choose what they would like to
                       use from the list of KidGenius features. For example, if
                       you don't want to use KidGenius to keep track of meals,
@@ -131,7 +131,7 @@ export default function Faq(props) {
                   <dd
                     className={`mt-2 pr-12 ${openPanel === 2 ? '' : 'hidden'}`}
                   >
-                    <p className="text-base leading-6 text-gray-500">
+                    <p className="text-base leading-6 text-gray-700">
                       Of course - our attendance feature is awesome. You can
                       sign kids in and out of the site or even programs. You can
                       also keep track of who dropped the kid off or who picked
@@ -172,7 +172,7 @@ export default function Faq(props) {
                   <dd
                     className={`mt-2 pr-12 ${openPanel === 3 ? '' : 'hidden'}`}
                   >
-                    <p className="text-base leading-6 text-gray-500">
+                    <p className="text-base leading-6 text-gray-700">
                       Of course - we made the site with everyone in mind. We
                       made it easy to use but just in case we publish How-To
                       videos on our YouTube channel.
@@ -212,7 +212,7 @@ export default function Faq(props) {
                   <dd
                     className={`mt-2 pr-12 ${openPanel === 4 ? '' : 'hidden'}`}
                   >
-                    <p className="text-base leading-6 text-gray-500">
+                    <p className="text-base leading-6 text-gray-700">
                       No. We hate having to sign contracts for software. So we
                       didn't make that a part of KidGenius. You can cancel at
                       anytime, we just ask for 30 days notice.
@@ -252,7 +252,7 @@ export default function Faq(props) {
                   <dd
                     className={`mt-2 pr-12 ${openPanel === 5 ? '' : 'hidden'}`}
                   >
-                    <p className="text-base leading-6 text-gray-500">
+                    <p className="text-base leading-6 text-gray-700">
                       Certainly, you can use the export buttons found throughout
                       the app to download the data. You can also email us and we
                       can help you out.
