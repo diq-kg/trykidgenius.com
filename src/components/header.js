@@ -1,19 +1,20 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
-import React, { useState } from 'react';
-import Dropdown from './dropdown';
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React, { useState } from "react";
+import Dropdown from "./dropdown";
+import logo from "../images/logo.svg";
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
 
   const dropDownItems = [
     {
-      label: 'Daycare Login',
-      url: 'https://kidgenius.daycareiq.com/session/new',
+      label: "Daycare Login",
+      url: "https://app.trykidgenius.com/",
     },
     {
-      label: 'Parents Login',
-      url: 'https://parents.trykidgenius.com/session/new',
+      label: "Parents Login",
+      url: "https://parents.trykidgenius.com/",
     },
   ];
 
@@ -30,12 +31,12 @@ function Header({ siteTitle }) {
   }
 
   function login() {
-    window.location.href = 'https://kidgenius.daycareiq.com/session/new';
+    window.location.href = "https://kidgenius.daycareiq.com/session/new";
   }
 
   function signUp() {
     window.location.href =
-      'https://kidgenius.daycareiq.com/account/new?from=kidgenius_home_page_button';
+      "https://kidgenius.daycareiq.com/account/new?from=kidgenius_home_page_button";
   }
 
   return (
@@ -46,9 +47,8 @@ function Header({ siteTitle }) {
     >
       <div className="flex h-20 items-center justify-between px-4 py-3 lg:p0">
         <div className="flex items-center">
-          <div className="w-8 h-8 rounded-lg bg-brand-primary"></div>
           <Link to="/" className="text-3xl font-bold ml-2 font-title">
-            KidGenius
+            <img src={logo} alt="KidGenius"></img>
           </Link>
         </div>
         <div className="lg:hidden flex">
@@ -68,7 +68,7 @@ function Header({ siteTitle }) {
       </div>
       <div
         className={`${
-          isExpanded ? 'block' : 'hidden'
+          isExpanded ? "block" : "hidden"
         } px-2 pt-4 pb-4 text-gray-brand lg:flex lg:p0`}
       >
         <a
