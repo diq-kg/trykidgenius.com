@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function DropDownLink(label, url) {
   return (
@@ -23,7 +23,7 @@ function DropDown(props) {
             className="inline-flex justify-center items-center rounded-md border-2 px-2 w-32 h-12 font-semibold bg-white hover:bg-gray-200 active:bg-gray-50 transition ease-in-out duration-150"
             onClick={() => toggle(!open)}
           >
-            Login
+            {props.title}
             <svg
               className="-mr-1 ml-2 h-5 w-5"
               fill="currentColor"
@@ -42,8 +42,8 @@ function DropDown(props) {
       <div
         className={`${
           open
-            ? 'origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg'
-            : 'hidden'
+            ? "origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg"
+            : "hidden"
         }`}
       >
         <div className="rounded-md bg-white shadow-xs">

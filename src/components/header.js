@@ -7,14 +7,25 @@ import logo from "../images/logo.svg";
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
 
-  const dropDownItems = [
+  const dropDownItemsLogin = [
     {
-      label: "Daycare Login",
+      label: "Provider Login",
       url: "https://app.trykidgenius.com/",
     },
     {
       label: "Parents Login",
       url: "https://parents.trykidgenius.com/",
+    },
+  ];
+
+  const dropDownItemsSignUp = [
+    {
+      label: "Provider Sign Up",
+      url: "https://app.trykidgenius.com/account/new",
+    },
+    {
+      label: "Parents Sign Up",
+      url: "https://parents.trykidgenius.com/parent/new",
     },
   ];
 
@@ -51,9 +62,9 @@ function Header({ siteTitle }) {
             <img src={logo} alt="KidGenius"></img>
           </Link>
         </div>
-        <div className="lg:hidden flex">
+        <div className="sm:hidden flex">
           <span className="mr-2">
-            <Dropdown items={dropDownItems}></Dropdown>
+            <Dropdown title="Login" items={dropDownItemsLogin}></Dropdown>
           </span>
           <button
             className="block text-gray-brand hover:text-gray-700 focus:text-gray-700 focus:outline-none"
@@ -90,14 +101,15 @@ function Header({ siteTitle }) {
           FAQ
         </a>
         <span className="hidden lg:block ml-2">
-          <Dropdown items={dropDownItems}></Dropdown>
+          <Dropdown title="Login" items={dropDownItemsLogin}></Dropdown>
         </span>
-        <button
-          onClick={signUp}
-          className="block w-32 h-12 bg-brand-primary text-white font-semibold hover:bg-gray-300 rounded mt-2 ml-2 lg:mt-0 lg:ml-4"
-        >
-          Sign Up
-        </button>
+        <span className="hidden sm:block ml-2">
+          <Dropdown
+            title="Sign Up"
+            className=" bg-brand-primary text-white font-semibold"
+            items={dropDownItemsSignUp}
+          ></Dropdown>
+        </span>
       </div>
     </header>
   );
