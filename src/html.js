@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 export default function HTML(props) {
   return (
@@ -13,18 +13,9 @@ export default function HTML(props) {
         />
         {props.headComponents}
         <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            <!-- Begin of Chaport Live Chat code -->
-(function(w,d,v3){
-w.chaportConfig = {
-  appId : '5e6e9dc270748130b6a88805'
-};
-
-if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push(arguments)};v3.on=function(e,fn){if(!v3._l[e])v3._l[e]=[];v3._l[e].push(fn)};var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://app.chaport.com/javascripts/insert.js';var ss=d.getElementsByTagName('script')[0];ss.parentNode.insertBefore(s,ss)})(window, document);
-        `
-          }}
-        />
+          src="https://embed.small.chat/TH09216SUGH31GH3L5.js"
+          async
+        ></script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
@@ -45,5 +36,5 @@ HTML.propTypes = {
   bodyAttributes: PropTypes.object,
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
-  postBodyComponents: PropTypes.array
+  postBodyComponents: PropTypes.array,
 };
