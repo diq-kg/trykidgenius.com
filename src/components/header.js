@@ -4,17 +4,68 @@ import React, { useState } from "react";
 import Dropdown from "./dropdown";
 import logo from "../images/logo.svg";
 
+const providerIcon = (
+  <svg
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+  </svg>
+);
+
+const parentsIcon = (
+  <svg
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+  </svg>
+);
+
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
+
+  const dropDownItemsMobile = [
+    {
+      label: "Provider Login",
+      url: "https://app.trykidgenius.com/",
+      icon: providerIcon,
+    },
+    {
+      label: "Provider Sign Up",
+      url: "https://app.trykidgenius.com/account/new",
+      icon: providerIcon,
+    },
+    {
+      label: "Parents Login",
+      url: "https://parents.trykidgenius.com/",
+      icon: parentsIcon,
+    },
+    {
+      label: "Parents Sign Up",
+      url: "https://parents.trykidgenius.com/parent/new",
+      icon: parentsIcon,
+    },
+  ];
 
   const dropDownItemsLogin = [
     {
       label: "Provider Login",
       url: "https://app.trykidgenius.com/",
+      icon: providerIcon,
     },
     {
       label: "Parents Login",
       url: "https://parents.trykidgenius.com/",
+      icon: parentsIcon,
     },
   ];
 
@@ -22,10 +73,12 @@ function Header({ siteTitle }) {
     {
       label: "Provider Sign Up",
       url: "https://app.trykidgenius.com/account/new",
+      icon: providerIcon,
     },
     {
       label: "Parents Sign Up",
       url: "https://parents.trykidgenius.com/parent/new",
+      icon: parentsIcon,
     },
   ];
 
@@ -62,9 +115,12 @@ function Header({ siteTitle }) {
             <img src={logo} alt="KidGenius"></img>
           </Link>
         </div>
-        <div className="sm:hidden flex">
+        <div className="lg:hidden flex">
           <span className="mr-2">
-            <Dropdown title="Login" items={dropDownItemsLogin}></Dropdown>
+            <Dropdown
+              title="Login / SignUp"
+              items={dropDownItemsMobile}
+            ></Dropdown>
           </span>
           <button
             className="block text-gray-brand hover:text-gray-700 focus:text-gray-700 focus:outline-none"

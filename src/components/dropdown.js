@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 
-function DropDownLink(label, url) {
+function DropDownLink({ label, url, icon = null }) {
   return (
     <a
       href={url}
-      className="block px-4 py-4 leading-5 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900"
+      className="block px-4 py-4 leading-5 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900 flex align-middle"
     >
-      {label}
+      {icon && <span class="h-4 w-4 mr-4">{icon}</span>}
+      <span>{label}</span>
     </a>
   );
 }
@@ -20,7 +21,7 @@ function DropDown(props) {
         <span className="rounded-md shadow-sm">
           <button
             type="button"
-            className="inline-flex justify-center items-center rounded-md border-2 px-2 w-32 h-12 font-semibold bg-white hover:bg-gray-200 active:bg-gray-50 transition ease-in-out duration-150"
+            className="inline-flex justify-center items-center rounded-md border-2 px-2 w-40 sm:32 h-12 font-semibold bg-white hover:bg-gray-200 active:bg-gray-50 transition ease-in-out duration-150"
             onClick={() => toggle(!open)}
           >
             {props.title}
@@ -42,13 +43,13 @@ function DropDown(props) {
       <div
         className={`${
           open
-            ? "origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg"
+            ? "origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg"
             : "hidden"
         }`}
       >
         <div className="rounded-md bg-white shadow-xs">
           <div className="py-1">
-            {props.items.map((item) => DropDownLink(item.label, item.url))}
+            {props.items.map((item) => DropDownLink(item))}
             {/* <form method="POST" action="#">
               <button
                 type="submit"
