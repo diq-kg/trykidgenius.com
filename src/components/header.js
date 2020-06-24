@@ -1,8 +1,8 @@
-import { Link } from "gatsby";
-import PropTypes from "prop-types";
-import React, { useState } from "react";
-import Dropdown from "./dropdown";
-import logo from "../images/logo.svg";
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React, { useState } from 'react';
+import Dropdown from './dropdown';
+import logo from '../images/logo.svg';
 
 const providerIcon = (
   <svg
@@ -35,49 +35,49 @@ function Header({ siteTitle }) {
 
   const dropDownItemsMobile = [
     {
-      label: "Provider Login",
-      url: "https://app.trykidgenius.com/",
+      label: 'Provider Login',
+      url: 'https://app.trykidgenius.com/',
       icon: providerIcon,
     },
     {
-      label: "Provider Sign Up",
-      url: "https://app.trykidgenius.com/account/new",
+      label: 'Provider Sign Up',
+      url: 'https://app.trykidgenius.com/account/new',
       icon: providerIcon,
     },
     {
-      label: "Parents Login",
-      url: "https://parents.trykidgenius.com/",
+      label: 'Parents Login',
+      url: 'https://parents.trykidgenius.com/',
       icon: parentsIcon,
     },
     {
-      label: "Parents Sign Up",
-      url: "https://parents.trykidgenius.com/parent/new",
+      label: 'Parents Sign Up',
+      url: 'https://parents.trykidgenius.com/parent/new',
       icon: parentsIcon,
     },
   ];
 
   const dropDownItemsLogin = [
     {
-      label: "Provider Login",
-      url: "https://app.trykidgenius.com/",
+      label: 'Provider Login',
+      url: 'https://app.trykidgenius.com/',
       icon: providerIcon,
     },
     {
-      label: "Parents Login",
-      url: "https://parents.trykidgenius.com/",
+      label: 'Parents Login',
+      url: 'https://parents.trykidgenius.com/',
       icon: parentsIcon,
     },
   ];
 
   const dropDownItemsSignUp = [
     {
-      label: "Provider Sign Up",
-      url: "https://app.trykidgenius.com/account/new",
+      label: 'Provider Sign Up',
+      url: 'https://app.trykidgenius.com/account/new',
       icon: providerIcon,
     },
     {
-      label: "Parents Sign Up",
-      url: "https://parents.trykidgenius.com/parent/new",
+      label: 'Parents Sign Up',
+      url: 'https://parents.trykidgenius.com/parent/new',
       icon: parentsIcon,
     },
   ];
@@ -95,12 +95,12 @@ function Header({ siteTitle }) {
   }
 
   function login() {
-    window.location.href = "https://kidgenius.daycareiq.com/session/new";
+    window.location.href = 'https://kidgenius.daycareiq.com/session/new';
   }
 
   function signUp() {
     window.location.href =
-      "https://kidgenius.daycareiq.com/account/new?from=kidgenius_home_page_button";
+      'https://kidgenius.daycareiq.com/account/new?from=kidgenius_home_page_button';
   }
 
   return (
@@ -135,7 +135,7 @@ function Header({ siteTitle }) {
       </div>
       <div
         className={`${
-          isExpanded ? "block" : "hidden"
+          isExpanded ? 'block' : 'hidden'
         } px-2 pt-4 pb-4 text-gray-brand lg:flex lg:p0`}
       >
         <a
@@ -156,6 +156,12 @@ function Header({ siteTitle }) {
         >
           FAQ
         </a>
+        <Link
+          to="blog"
+          className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
+        >
+          Blog
+        </Link>
         <span className="hidden lg:block ml-2">
           <Dropdown title="Login" items={dropDownItemsLogin}></Dropdown>
         </span>

@@ -44,6 +44,14 @@ module.exports = {
       options: {
         trackingId: 'UA-162185683-1'
       }
-    }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/posts`
+      }
+    },
+    `gatsby-transformer-remark`
   ]
 };
