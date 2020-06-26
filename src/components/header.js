@@ -7,9 +7,9 @@ import logo from '../images/logo.svg';
 const providerIcon = (
   <svg
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    stroke-width="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
     viewBox="0 0 24 24"
     stroke="currentColor"
   >
@@ -20,9 +20,9 @@ const providerIcon = (
 const parentsIcon = (
   <svg
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    stroke-width="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
     viewBox="0 0 24 24"
     stroke="currentColor"
   >
@@ -37,49 +37,49 @@ function Header({ siteTitle }) {
     {
       label: 'Provider Login',
       url: 'https://app.trykidgenius.com/',
-      icon: providerIcon,
+      icon: providerIcon
     },
     {
       label: 'Provider Sign Up',
       url: 'https://app.trykidgenius.com/account/new',
-      icon: providerIcon,
+      icon: providerIcon
     },
     {
       label: 'Parents Login',
       url: 'https://parents.trykidgenius.com/',
-      icon: parentsIcon,
+      icon: parentsIcon
     },
     {
       label: 'Parents Sign Up',
       url: 'https://parents.trykidgenius.com/parent/new',
-      icon: parentsIcon,
-    },
+      icon: parentsIcon
+    }
   ];
 
   const dropDownItemsLogin = [
     {
       label: 'Provider Login',
       url: 'https://app.trykidgenius.com/',
-      icon: providerIcon,
+      icon: providerIcon
     },
     {
       label: 'Parents Login',
       url: 'https://parents.trykidgenius.com/',
-      icon: parentsIcon,
-    },
+      icon: parentsIcon
+    }
   ];
 
   const dropDownItemsSignUp = [
     {
       label: 'Provider Sign Up',
       url: 'https://app.trykidgenius.com/account/new',
-      icon: providerIcon,
+      icon: providerIcon
     },
     {
       label: 'Parents Sign Up',
       url: 'https://parents.trykidgenius.com/parent/new',
-      icon: parentsIcon,
-    },
+      icon: parentsIcon
+    }
   ];
 
   function menuButton(show) {
@@ -178,11 +178,11 @@ function Header({ siteTitle }) {
 }
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+  siteTitle: PropTypes.string
 };
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: ``
 };
 
 export default Header;
