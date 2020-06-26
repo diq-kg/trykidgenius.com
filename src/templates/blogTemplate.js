@@ -1,17 +1,19 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
+import Layout from '../components/layout';
+
 export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
-    <div className="">
-      <div className="">
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.title}</h2>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+    <Layout>
+      <div className="flex flex-col pl-3">
+        <h1 className="text-2xl font-brand-bold">{frontmatter.title}</h1>
+        <h3 className="font-semibold">{frontmatter.date}</h3>
+        <div className="pt-4" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
-    </div>
+    </Layout>
   );
 }
 
