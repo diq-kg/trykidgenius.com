@@ -49,9 +49,26 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
-        path: `${__dirname}/src/posts`
+        path: `${__dirname}/content/blog`
       }
     },
-    `gatsby-transformer-remark`
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-classes',
+            options: {
+              classMap: {
+                paragraph: 'pt-2 pb-2',
+                'heading[depth=3]': 'text-xl',
+                'heading[depth=2]': 'text-2xl',
+                link: 'text-brand-primary'
+              }
+            }
+          }
+        ]
+      }
+    }
   ]
 };

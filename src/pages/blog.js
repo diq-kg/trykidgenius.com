@@ -19,7 +19,7 @@ export default function Blog({ data }) {
             <PostPreview
               key={key}
               title={edge.node.frontmatter.title}
-              date={edge.node.frontmatter.date}
+              date={localDate(edge.node.frontmatter.date)}
               fold={edge.node.excerpt}
               url={edge.node.frontmatter.slug}
             />
@@ -28,6 +28,11 @@ export default function Blog({ data }) {
       </div>
     </Layout>
   );
+}
+
+function localDate(_date) {
+  const date = new Date(_date);
+  return date.toDateString();
 }
 
 export const pageQuery = graphql`
