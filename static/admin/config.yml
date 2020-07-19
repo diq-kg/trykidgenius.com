@@ -4,9 +4,6 @@ backend:
   repo: daycareiq/trykidgenius.com
   auth_type: implicit
   app_id: qQdGSV3ZJUkxmbWYtm
-  api_root: https://api.bitbucket.org/2.0
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
 
 media_folder: static/img
 public_folder: /img
