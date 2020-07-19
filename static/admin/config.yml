@@ -1,0 +1,27 @@
+backend:
+  name: bitbucket
+  branch: master
+  repo: daycareiq/trykidgenius.com
+  auth_type: implicit
+  app_id: qQdGSV3ZJUkxmbWYtm
+  api_root: https://api.bitbucket.org/2.0
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "index"
+    media_folder: ""
+    public_folder: ""
+    path: "{{title}}/index"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
