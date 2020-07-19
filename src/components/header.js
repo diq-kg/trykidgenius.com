@@ -45,15 +45,15 @@ function Header({ siteTitle }) {
       icon: providerIcon
     },
     {
-      label: 'Parents Login',
-      url: 'https://parents.trykidgenius.com/',
-      icon: parentsIcon
+      label: "Family Login",
+      url: "https://parents.trykidgenius.com/",
+      icon: parentsIcon,
     },
     {
-      label: 'Parents Sign Up',
-      url: 'https://parents.trykidgenius.com/parent/new',
-      icon: parentsIcon
-    }
+      label: "Family Sign Up",
+      url: "https://parents.trykidgenius.com/parent/new",
+      icon: parentsIcon,
+    },
   ];
 
   const dropDownItemsLogin = [
@@ -63,10 +63,10 @@ function Header({ siteTitle }) {
       icon: providerIcon
     },
     {
-      label: 'Parents Login',
-      url: 'https://parents.trykidgenius.com/',
-      icon: parentsIcon
-    }
+      label: "Family Login",
+      url: "https://parents.trykidgenius.com/",
+      icon: parentsIcon,
+    },
   ];
 
   const dropDownItemsSignUp = [
@@ -76,10 +76,10 @@ function Header({ siteTitle }) {
       icon: providerIcon
     },
     {
-      label: 'Parents Sign Up',
-      url: 'https://parents.trykidgenius.com/parent/new',
-      icon: parentsIcon
-    }
+      label: "Family Sign Up",
+      url: "https://parents.trykidgenius.com/parent/new",
+      icon: parentsIcon,
+    },
   ];
 
   function menuButton(show) {
