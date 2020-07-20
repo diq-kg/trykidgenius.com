@@ -13,7 +13,7 @@ export default function ContactUs() {
           </h1>
           <h2 className="text-2xl font-brand">
             Reach us via live chat or give us a ring at{' '}
-            <a href="tel:+18332940005" className="text-brand-primary">1-833-294-0005</a>!
+            <a href="tel:+18332940005" className="text-brand-primary">1-833-294-0005</a>
           </h2>
         </div>
       </Pad>
