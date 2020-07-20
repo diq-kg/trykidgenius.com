@@ -45,15 +45,15 @@ function Header({ siteTitle }) {
       icon: providerIcon
     },
     {
-      label: "Family Login",
-      url: "https://parents.trykidgenius.com/",
-      icon: parentsIcon,
+      label: 'Family Login',
+      url: 'https://parents.trykidgenius.com/',
+      icon: parentsIcon
     },
     {
-      label: "Family Sign Up",
-      url: "https://parents.trykidgenius.com/parent/new",
-      icon: parentsIcon,
-    },
+      label: 'Family Sign Up',
+      url: 'https://parents.trykidgenius.com/parent/new',
+      icon: parentsIcon
+    }
   ];
 
   const dropDownItemsLogin = [
@@ -63,10 +63,10 @@ function Header({ siteTitle }) {
       icon: providerIcon
     },
     {
-      label: "Family Login",
-      url: "https://parents.trykidgenius.com/",
-      icon: parentsIcon,
-    },
+      label: 'Family Login',
+      url: 'https://parents.trykidgenius.com/',
+      icon: parentsIcon
+    }
   ];
 
   const dropDownItemsSignUp = [
@@ -76,10 +76,10 @@ function Header({ siteTitle }) {
       icon: providerIcon
     },
     {
-      label: "Family Sign Up",
-      url: "https://parents.trykidgenius.com/parent/new",
-      icon: parentsIcon,
-    },
+      label: 'Family Sign Up',
+      url: 'https://parents.trykidgenius.com/parent/new',
+      icon: parentsIcon
+    }
   ];
 
   function menuButton(show) {
@@ -161,6 +161,12 @@ function Header({ siteTitle }) {
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
         >
           Blog
+        </Link>
+        <Link
+          to="contact"
+          className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
+        >
+          Contact Us
         </Link>
         <span className="hidden lg:block ml-2">
           <Dropdown title="Login" items={dropDownItemsLogin}></Dropdown>
