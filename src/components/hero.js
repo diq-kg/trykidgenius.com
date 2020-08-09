@@ -1,15 +1,35 @@
 import React from 'react';
-
+import mixpanel from 'mixpanel-browser';
 import TeacherIllustration from './teacherIllustration';
 import { register, demo } from './urls';
 
+mixpanel.init('ff1a110c4217ff6b263a025dac8e2a46');
+
 function Hero() {
-  function getStarted() {
-    window.location.href = register;
+  function startTrial() {
+    mixpanel.track(
+      'Start Trial',
+      null,
+      {
+        send_immediately: true,
+      },
+      () => (window.location.href = register)
+    );
   }
 
   function tryDemo() {
-    window.location.href = demo;
+    mixpanel.track(
+      'Try Demo',
+      {
+        email: 'demo@test.com',
+        name: 'Frodo Baggins',
+        title: 'Owner',
+      },
+      {
+        send_immediately: true,
+      },
+      () => (window.location.href = demo)
+    );
   }
 
   return (
@@ -28,10 +48,10 @@ function Hero() {
             </p>
             <div className="">
               <button
-                onClick={getStarted}
+                onClick={startTrial}
                 className="w-40 h-12 mr-4 text-white font-bold rounded bg-brand-primary transition duration-150 ease-in-out hover:shadow-md"
               >
-               Start free trial
+                Start free trial
               </button>
               <button
                 onClick={tryDemo}

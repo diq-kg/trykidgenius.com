@@ -1,6 +1,7 @@
 import React from 'react';
 import Checkmark from './feature-icons/checkmark';
 import { register } from './urls';
+import mixpanel from '../components/contexts/mixpanel';
 
 function Pricing(props) {
   function openChat() {

@@ -16,6 +16,7 @@
     "gatsby-source-filesystem": "^2.3.13",
     "gatsby-transformer-remark": "^2.8.18",
     "graphql": "15.3.0",
+    "mixpanel-browser": "^2.38.0",
     "netlify-cms-app": "^2.12.18",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
