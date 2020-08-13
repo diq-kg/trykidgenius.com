@@ -5,6 +5,17 @@ export default function CaptureInfoModal(props) {
   const [name, setName] = useState('');
   const [daycare, setDaycare] = useState('');
 
+  function validateEmail(email) {
+    const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+  }
+
+  function validated() {
+    return (
+      email.trim() && validateEmail(email) && name.trim() && daycare.trim()
+    );
+  }
+
   return (
     <div className="fixed bottom-0 inset-x-0 px-4 pb-6 sm:inset-0 sm:p-0 sm:flex sm:items-center sm:justify-center">
       <div className="fixed inset-0 transition-opacity" onClick={props.close}>
@@ -83,8 +94,11 @@ export default function CaptureInfoModal(props) {
                   daycare,
                 })
               }
+              disabled={!validated()}
               type="button"
-              className="mt-6 inline-flex justify-center w-full rounded-md border border-transparent px-4 py-2 bg-brand-primary text-base leading-6 font-medium text-white shadow-sm transition ease-in-out duration-150 sm:text-sm sm:leading-5"
+              className={`mt-6 inline-flex justify-center w-full rounded-md border border-transparent px-4 py-2 text-base leading-6 font-medium text-white shadow-sm transition ease-in-out duration-150 sm:text-sm sm:leading-5 ${
+                validated() ? 'bg-brand-primary' : 'bg-gray-200'
+              }`}
             >
               Access live demo
             </button>
