@@ -17,7 +17,7 @@ function DropDown(props) {
   const [open, toggle] = useState(false);
 
   return (
-    <div className="relative inline-block text-left z-40">
+    <div className="relative inline-block text-left">
       <div>
         <span className="rounded-md shadow-sm">
           <button

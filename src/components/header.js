@@ -37,49 +37,49 @@ function Header({ siteTitle }) {
     {
       label: 'Provider Login',
       url: 'https://app.trykidgenius.com/',
-      icon: providerIcon
+      icon: providerIcon,
     },
     {
       label: 'Provider Sign Up',
       url: 'https://app.trykidgenius.com/account/new',
-      icon: providerIcon
+      icon: providerIcon,
     },
     {
       label: 'Family Login',
       url: 'https://parents.trykidgenius.com/',
-      icon: parentsIcon
+      icon: parentsIcon,
     },
     {
       label: 'Family Sign Up',
       url: 'https://parents.trykidgenius.com/parent/new',
-      icon: parentsIcon
-    }
+      icon: parentsIcon,
+    },
   ];
 
   const dropDownItemsLogin = [
     {
       label: 'Provider Login',
       url: 'https://app.trykidgenius.com/',
-      icon: providerIcon
+      icon: providerIcon,
     },
     {
       label: 'Family Login',
       url: 'https://parents.trykidgenius.com/',
-      icon: parentsIcon
-    }
+      icon: parentsIcon,
+    },
   ];
 
   const dropDownItemsSignUp = [
     {
       label: 'Provider Sign Up',
       url: 'https://app.trykidgenius.com/account/new',
-      icon: providerIcon
+      icon: providerIcon,
     },
     {
       label: 'Family Sign Up',
       url: 'https://parents.trykidgenius.com/parent/new',
-      icon: parentsIcon
-    }
+      icon: parentsIcon,
+    },
   ];
 
   function menuButton(show) {
@@ -184,11 +184,11 @@ function Header({ siteTitle }) {
 }
 
 Header.propTypes = {
-  siteTitle: PropTypes.string
+  siteTitle: PropTypes.string,
 };
 
 Header.defaultProps = {
-  siteTitle: ``
+  siteTitle: ``,
 };
 
 export default Header;

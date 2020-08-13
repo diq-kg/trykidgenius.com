@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
+import { track } from '../util/mixpanel';
+import { demo } from '../components/urls';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
@@ -10,13 +12,46 @@ import Pad from '../components/pad';
 import Try from '../components/try';
 import Quotes from '../components/quotes';
 import Faq from '../components/faq';
+import Model from '../components/modal';
+
+function addBodyClass(className) {
+  document.body.classList.add(className);
+}
+
+function removeBodyClass(className) {
+  document.body.classList.remove(className);
+}
 
 function IndexPage() {
+  const [showModal, setModal] = useState(false);
+
+  useEffect(() => {
+    if (showModal) {
+      addBodyClass('modal-open');
+    } else {
+      removeBodyClass('modal-open');
+    }
+  });
+
+  function tryDemo(payload) {
+    track('Try Demo', payload, () => (window.location.href = demo));
+  }
+
+  function closeModal() {
+    setModal(false);
+    track('Cancel Try Live Demo Modal');
+  }
+
+  function openModal() {
+    setModal(true);
+  }
+
   return (
     <Layout>
+      {showModal ? <Model close={closeModal} confirm={tryDemo} /> : ''}
       <SEO title="TryKidgenius" />
       <Pad>
-        <Hero />
+        <Hero try={openModal} />
       </Pad>
       <Pad>
         <Features id="features" />

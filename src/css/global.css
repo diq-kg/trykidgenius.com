@@ -21,3 +21,7 @@
   font-family: 'Mikado Bold DEMO';
   src: url('../fonts/MikadoBold_DEMO.woff');
 }
+
+.modal-open {
+  overflow-y: hidden;
+}
