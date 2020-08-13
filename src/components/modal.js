@@ -22,7 +22,7 @@ export default function CaptureInfoModal(props) {
         <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
       </div>
       <div
-        className="bg-white rounded-lg px-4 pt-5 pb-4 overflow-hidden shadow-xl transform transition-all sm:max-w-sm sm:w-full sm:p-6"
+        className="bg-white rounded-lg px-4 pt-5 pb-4 overflow-hidden shadow-xl transform transition-all sm:p-6"
         role="dialog"
         aria-modal="true"
         aria-labelledby="modal-headline"
@@ -30,24 +30,25 @@ export default function CaptureInfoModal(props) {
         <div>
           <div className="mt-3 text-center sm:mt-5">
             <h3
-              className="text-lg leading-6 font-brand-bold text-gray-900"
+              className="text-lg leading-6 text-gray-900"
               id="modal-headline"
             >
-              See for yourself what's under the hood!
+              Try Kidgenius with sample daycare setup
             </h3>
             <h4 className="pt-5"></h4>
-            <div className="mt-2 flex flex-col">
+            <div className="mt-2 flex flex-col text-gray-900">
               <div className="mt-6">
                 <label htmlFor="name" className="sr-only">
                   Name (required)
                 </label>
-                <div className="relative rounded-md shadow-sm">
+                <div className="relative rounded-md shadow-sm border-2 border-gray-400">
                   <input
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     id="name"
-                    className="form-input block w-full sm:text-sm sm:leading-5"
-                    placeholder="Sandy Clarkson (required)"
+                    autocomplete={"off"}
+                    className="form-input block w-full sm:text-sm leading-8 p-2 text-gray-700 rounded-md"
+                    placeholder="Full name (required)"
                   />
                 </div>
               </div>
@@ -55,13 +56,14 @@ export default function CaptureInfoModal(props) {
                 <label htmlFor="email" className="sr-only">
                   Email (required)
                 </label>
-                <div className="relative rounded-md shadow-sm">
+                <div className="relative rounded-md shadow-sm border-2 border-gray-400">
                   <input
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     id="email"
-                    className="form-input block w-full sm:text-sm sm:leading-5"
-                    placeholder="you@example.com (required)"
+                    autocomplete={"off"}
+                    className="form-input block w-full sm:text-sm leading-8 p-2 text-gray-700 rounded-md "
+                    placeholder="Email (required)"
                   />
                 </div>
               </div>
@@ -69,15 +71,16 @@ export default function CaptureInfoModal(props) {
                 <label htmlFor="daycare" className="sr-only">
                   Daycare name (required)
                 </label>
-                <div className="relative rounded-md shadow-sm">
+                <div className="relative rounded-md shadow-sm border-2 border-gray-400">
                   <input
                     id="daycare"
                     value={daycare}
                     onChange={(e) => {
                       setDaycare(e.target.value);
                     }}
-                    className="form-input block w-full sm:text-sm sm:leading-5"
-                    placeholder="Sandy's Playcare (required)"
+                    autocomplete={"off"}
+                    className="form-input block w-full sm:text-sm  leading-8 p-2 text-gray-700 rounded-md "
+                    placeholder="Daycare (required)"
                   />
                 </div>
               </div>
@@ -96,8 +99,8 @@ export default function CaptureInfoModal(props) {
               }
               disabled={!validated()}
               type="button"
-              className={`mt-6 inline-flex justify-center w-full rounded-md border border-transparent px-4 py-2 text-base leading-6 font-medium text-white shadow-sm transition ease-in-out duration-150 sm:text-sm sm:leading-5 ${
-                validated() ? 'bg-brand-primary' : 'bg-gray-200'
+              className={`mt-6 inline-flex justify-center w-full rounded-md border border-transparent px-4 py-4 text-base leading-6 font-medium text-white shadow-sm transition ease-in-out duration-150 sm:text-sm sm:leading-5 ${
+                validated() ? 'bg-brand-primary' : 'bg-gray-400'
               }`}
             >
               Access live demo
