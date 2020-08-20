@@ -7,13 +7,17 @@ import PostPreview from '../components/blog/post-preview';
 
 export default function Blog({ data }) {
   const {
-    allMarkdownRemark: { edges }
+    allMarkdownRemark: { edges },
   } = data;
 
   return (
     <Layout>
       <SEO title="Blog - Try KidGenius" />
-      <div className="flex pt-16 pl-3">
+      <h1 className="md:text-6xl text-3xl font-extrabold mt-8">Latest</h1>
+      <p className="text-gray-brand-light">
+        All the latest KidGenius news straight from the team.
+      </p>
+      <div className="flex pt-16 pl-3 mt-4 border border-gray-700 border-t-1 border-r-0 border-l-0 border-b-0">
         <div className="flex flex-col">
           {edges.map((edge, key) => (
             <PostPreview
