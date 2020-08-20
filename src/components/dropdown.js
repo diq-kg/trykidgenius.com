@@ -22,7 +22,7 @@ function DropDown(props) {
         <span className="rounded-md shadow-sm">
           <button
             type="button"
-            className="inline-flex justify-center items-center rounded-md border-2 px-2 w-40 sm:32 h-12 font-semibold bg-white hover:bg-gray-200 active:bg-gray-50 transition ease-in-out duration-150"
+            className="text-sm md:text-base inline-flex justify-center items-center rounded-md border-2 px-2 w-24 sm:w-40 md:h-12 font-semibold bg-white hover:bg-gray-200 active:bg-gray-50 transition ease-in-out duration-150"
             onClick={() => toggle(!open)}
           >
             {props.title}
