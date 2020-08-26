@@ -13,21 +13,25 @@ export default function Blog({ data }) {
   return (
     <Layout>
       <SEO title="Blog - Try KidGenius" />
-      <h1 className="md:text-6xl text-3xl font-extrabold mt-8">Latest</h1>
-      <p className="text-gray-brand-light">
-        All the latest KidGenius news straight from the team.
-      </p>
-      <div className="flex pt-16 pl-3 mt-4 border border-gray-700 border-t-1 border-r-0 border-l-0 border-b-0">
-        <div className="flex flex-col">
-          {edges.map((edge, key) => (
-            <PostPreview
-              key={key}
-              title={edge.node.frontmatter.title}
-              date={localDate(edge.node.frontmatter.date)}
-              fold={edge.node.excerpt}
-              url={edge.node.frontmatter.slug}
-            />
-          ))}
+      <div className="flex flex-col items-center">
+        <h1 className="md:text-6xl text-3xl font-extrabold mt-8">Latest</h1>
+        <p className="text-gray-brand-light">
+          All the latest KidGenius news straight from the team.
+        </p>
+        <div className="flex pt-4 lg:pt-8 pl-3 mt-4">
+          <div className="flex flex-col">
+            {edges.map((edge, key) => (
+              <div className="pt-8 border border-gray-300 border-t-1 border-r-0 border-l-0 border-b-0">
+                <PostPreview
+                  key={key}
+                  title={edge.node.frontmatter.title}
+                  date={localDate(edge.node.frontmatter.date)}
+                  fold={edge.node.excerpt}
+                  url={edge.node.frontmatter.slug}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </Layout>
@@ -45,7 +49,6 @@ export const pageQuery = graphql`
       totalCount
       edges {
         node {
-          html
           frontmatter {
             author
             avatar
@@ -53,7 +56,7 @@ export const pageQuery = graphql`
             slug
             title
           }
-          excerpt
+          excerpt(pruneLength: 300)
           timeToRead
         }
       }
