@@ -16,10 +16,9 @@ export default function Template({ data }) {
         <h1 className="text-center max-w-3xl text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:leading-none font-brand-bold pb-2 sm:pb-6">
           {frontmatter.title}
         </h1>
-        <p>KG Team</p>
         <p>
           <a
-            href="https://www.facebook.com/trykidgenius/"
+            href="https://www.twitter.com/trykidgenius/"
             className="text-brand-primary"
           >
             @trykidgenius
