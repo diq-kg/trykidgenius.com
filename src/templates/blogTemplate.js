@@ -12,8 +12,8 @@ export default function Template({ data }) {
     <Layout>
       <SEO
         title={frontmatter.title}
-        keywords={frontmatter.keywords}
-        description={description || excerpt}
+        keywords={frontmatter.keywords || ''}
+        description={excerpt}
       />
       <div className="flex flex-col pl-3 pt-10 items-center">
         <h3 className="text-gray-600 font-medium pb-2 sm:pb-6">
@@ -54,7 +54,6 @@ export const pageQuery = graphql`
         slug
         title
         keywords
-        description
       }
     }
   }
