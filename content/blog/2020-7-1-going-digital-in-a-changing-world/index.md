@@ -1,10 +1,11 @@
 ---
-slug: '/blog/going-digital-in-a-changing-world'
+title: Going Digital in a Changing World
 date: 2020-07-01
-title: 'Going Digital in a Changing World'
-author: 'TryKidgenius Team'
-avatar: ''
-keywords: ''
+slug: /blog/going-digital-in-a-changing-world
+author: TryKidgenius Team
+avatar: ""
+keywords: KidGenius
+image: twitter-coverphoto-image-1200x400-2-.png
 ---
 
 ## How You Can Update Your Daycare in an Instant!
