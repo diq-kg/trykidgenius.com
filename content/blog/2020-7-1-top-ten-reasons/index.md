@@ -1,12 +1,11 @@
 ---
-slug: '/blog/top-ten-reasons-why-taking-your-business-online-rocks'
+title: The Top Ten Reasons Why Taking Your Business Online Rocks!
 date: 2020-06-30
-title: 'The Top Ten Reasons Why Taking Your Business Online Rocks!'
-author: 'TryKidgenius Team'
-avatar: ''
-keywords: ''
+slug: /blog/top-ten-reasons-why-taking-your-business-online-rocks
+author: TryKidgenius Team
+avatar: ""
+keywords: daycare
 ---
-
 Being a daycare owner is a rewarding, special, and unique job; but it can be challenging at
 times! Needing to be on top of your game at all times, organization is key. One wonderful way to
 always be prepared for anything and everything is by taking your business online. Here are the
@@ -55,3 +54,5 @@ If you want to keep your business strictly business, you don’t need to put par
 The best part about taking your business online is that you can go paperless. Not only is it an environmentally conscious choice, but it keeps everything you need organized, it doesn’t take up space, and all hands on deck can access the app!
 
 If you’ve done things the traditional way for a long time, it may be time to consider something new to amp up your business game and organizational methods. Kid Genius does not disappoint, try a demo account today!
+
+![](twitter-coverphoto-image-1200x400-2-.png)
