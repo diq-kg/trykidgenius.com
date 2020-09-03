@@ -55,4 +55,3 @@ The best part about taking your business online is that you can go paperless. No
 
 If you’ve done things the traditional way for a long time, it may be time to consider something new to amp up your business game and organizational methods. Kid Genius does not disappoint, try a demo account today!
 
-![](twitter-coverphoto-image-1200x400-2-.png)
