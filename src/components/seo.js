@@ -4,7 +4,22 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import illustration from '../images/illustration.png';
 
-function SEO({ description, lang, meta, keywords, title }) {
+function getKeywords(keywords, backup) {
+  const _keywords = {
+    name: 'keywords',
+    content: ''
+  };
+
+  if (keywords && keywords.length) {
+    _keywords.content = keywords;
+  } else {
+    _keywords.content = backup.join(', ');
+  }
+
+  return _keywords;
+}
+
+function SEO({ description, lang, meta, keywords, title, author }) {
   return (
     <StaticQuery
       query={detailsQuery}
@@ -14,16 +29,16 @@ function SEO({ description, lang, meta, keywords, title }) {
             htmlAttributes={{
               lang
             }}
-            title={data.site.siteMetadata.title}
+            title={title || data.site.siteMetadata.title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
                 name: `description`,
-                content: data.site.siteMetadata.description
+                content: description || data.site.siteMetadata.description
               },
               {
                 property: `og:title`,
-                content: data.site.siteMetadata.title
+                content: title || data.site.siteMetadata.title
               },
               {
                 property: `og:url`,
@@ -35,7 +50,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:description`,
-                content: data.site.siteMetadata.description
+                content: description || data.site.siteMetadata.description
               },
               {
                 property: `og:fb_appid`,
@@ -55,11 +70,11 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `twitter:creator`,
-                content: data.site.siteMetadata.author
+                content: data.site.siteMetadata.twitter
               },
               {
                 name: `twitter:title`,
-                content: data.site.siteMetadata.title
+                content: title || data.site.siteMetadata.title
               },
               {
                 name: `twitter:image:src`,
@@ -75,17 +90,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `twitter:description`,
-                content: data.site.siteMetadata.description
+                content: description || data.site.siteMetadata.description
               }
             ]
-              .concat(
-                data.site.siteMetadata.keywords.length > 0
-                  ? {
-                      name: `keywords`,
-                      content: data.site.siteMetadata.keywords.join(`, `)
-                    }
-                  : []
-              )
+              .concat(getKeywords(keywords, data.site.siteMetadata.keywords))
               .concat(meta)}
           />
         );
@@ -117,7 +125,8 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.array,
   keywords: PropTypes.arrayOf(PropTypes.string),
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string
 };
 
 export default SEO;
@@ -132,6 +141,7 @@ const detailsQuery = graphql`
         keywords
         url
         fbAppId
+        twitter
       }
     }
   }

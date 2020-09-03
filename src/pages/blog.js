@@ -7,7 +7,7 @@ import PostPreview from '../components/blog/post-preview';
 
 export default function Blog({ data }) {
   const {
-    allMarkdownRemark: { edges },
+    allMarkdownRemark: { edges }
   } = data;
 
   return (

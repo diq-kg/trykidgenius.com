@@ -2,13 +2,19 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 
 import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 export default function Template({ data }) {
   const { markdownRemark } = data;
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter, html, excerpt } = markdownRemark;
   const date = new Date(frontmatter.date);
   return (
     <Layout>
+      <SEO
+        title={frontmatter.title}
+        keywords={frontmatter.keywords}
+        description={description || excerpt}
+      />
       <div className="flex flex-col pl-3 pt-10 items-center">
         <h3 className="text-gray-600 font-medium pb-2 sm:pb-6">
           {date.toDateString()}
@@ -42,10 +48,13 @@ export const pageQuery = graphql`
   query($slug: String!) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
+      excerpt(pruneLength: 200)
       frontmatter {
         date
         slug
         title
+        keywords
+        description
       }
     }
   }

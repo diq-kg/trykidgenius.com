@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `KidGenius`,
-    author: `@daycareiq`,
+    author: `@trykidgenius`,
+    twitter: '@trykidgenius',
     description: `KidGenius is the easy way to manage a daycare.`,
     url: 'https://www.trykidgenius.com',
     keywords: [
