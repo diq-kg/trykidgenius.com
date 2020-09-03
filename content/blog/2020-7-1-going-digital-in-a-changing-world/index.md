@@ -8,6 +8,8 @@ keywords: KidGenius
 image: twitter-coverphoto-image-1200x400-2-.png
 ---
 
+![image](./twitter-coverphoto-image-1200x400-2-.png)
+
 ## How You Can Update Your Daycare in an Instant!
 
 The month of March in 2020 will always be a time that lives in infamy around the world. Surely to be a story that kids will grow up and tell their own kids about; it’s hard to believe we are living during a world wide shutdown due to Covid-19. Millions of people stayed home to raise their family and keep safe in order to protect their health and the well-being of others. Slowly, as the world starts to come back to life, and work can resume again, things are going to look much differently. As a daycare owner, now more than ever is the time to invest and learn about online management to assist with various Covid restrictions! Here are some reasons why moving fully online can help you during these trying times.

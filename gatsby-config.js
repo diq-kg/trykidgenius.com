@@ -58,6 +58,15 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 600,
+            },
+          },
+          `gatsby-transformer-sharp`,
+          `gatsby-plugin-sharp`,
+          ,
+          {
             resolve: 'gatsby-remark-classes',
             options: {
               classMap: {
