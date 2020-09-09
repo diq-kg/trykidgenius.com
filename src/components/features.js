@@ -12,39 +12,39 @@ function Features(props) {
     {
       title: 'Attendance',
       desc:
-        'Track attendance and generate monthly reports in one go - available for both kids and staff.',
-      icon: <Checklist />
+        'Track attendance at your child care center and generate monthly reports in one go. Available for both kids and staff.',
+      icon: <Checklist />,
     },
     {
       title: 'Report Generation',
       desc:
-        'Generate custom reports based on age, attendance hours, or subsidy status. Export to excel for advanced editing.',
-      icon: <Report />
+        'Generate custom reports based on age, attendance hours, or subsidy status. Export to Excel for advanced editing and daycare management.',
+      icon: <Report />,
     },
     {
       title: 'Bulletin Board',
       desc:
         'Meal schedules, annoucements, activties, and forms for parents to read.',
-      icon: <Board />
+      icon: <Board />,
     },
     {
       title: 'Daily Report Cards',
       desc:
         'Keep track of meals, naps, activities, notes and more! All information is automatically emailed to parents in daily report.',
-      icon: <Paper />
+      icon: <Paper />,
     },
     {
       title: 'In-App Messaging',
       desc:
-        'Built in messaging system makes communicating with parents quick and easy.',
-      icon: <Message />
+        'The built-in messaging system makes communicating with parents quick and easy.',
+      icon: <Message />,
     },
     {
       title: 'Security',
       desc:
         'We take privacy seriously and ensure additional steps are taken to make your data private and secured.',
-      icon: <Lock />
-    }
+      icon: <Lock />,
+    },
   ];
 
   return (
