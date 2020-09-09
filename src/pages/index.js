@@ -46,10 +46,14 @@ function IndexPage() {
     setModal(true);
   }
 
+  const title = 'KidGenius | Daycare management software';
+  const desc =
+    'KidGenius daycare app is the easiest for daycare management. We help connect childcare providers and parents.';
+
   return (
     <Layout>
       {showModal ? <Model close={closeModal} confirm={tryDemo} /> : ''}
-      <SEO title="TryKidgenius" />
+      <SEO title={title} description={desc} />
       <Pad>
         <Hero try={openModal} />
       </Pad>

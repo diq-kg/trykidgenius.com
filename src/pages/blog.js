@@ -7,12 +7,15 @@ import PostPreview from '../components/blog/post-preview';
 
 export default function Blog({ data }) {
   const {
-    allMarkdownRemark: { edges }
+    allMarkdownRemark: { edges },
   } = data;
 
+  const title = 'KidGenius | Daycare center resources';
+  const desc =
+    'Check out our curated content for daycare centers especially written for childcare owners, parents, teachers and more.';
   return (
     <Layout>
-      <SEO title="Blog - Try KidGenius" />
+      <SEO title={title} description={desc} />
       <div className="flex flex-col items-center">
         <h1 className="md:text-6xl text-3xl font-extrabold mt-8">Latest</h1>
         <p className="text-gray-brand-light">

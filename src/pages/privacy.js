@@ -1,10 +1,15 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Pad from '../components/pad';
+import SEO from '../components/seo';
 
 function Privacy() {
+  const title = 'KidGenius | Privacy Policy';
+  const desc =
+    'KidGenius is committed to respecting your privacy as a visitor to our childcare management software website.';
   return (
     <Layout>
+      <SEO title={title} description={desc} />
       <Pad>
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-brand-bold">Privacy</h1>

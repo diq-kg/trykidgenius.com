@@ -1,10 +1,16 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Pad from '../components/pad';
+import SEO from '../components/seo';
 
 function Terms() {
+  const title = 'KidGenius | Terms of Service';
+  const desc =
+    'KidGenius terms of service for our daycare management software website.';
+
   return (
     <Layout>
+      <SEO title={title} description={desc} />
       <Pad>
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-brand-bold">Terms of Service</h1>
