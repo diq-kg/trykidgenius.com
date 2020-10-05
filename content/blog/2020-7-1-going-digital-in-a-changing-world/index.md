@@ -7,7 +7,6 @@ avatar: ""
 keywords: KidGenius
 image: twitter-coverphoto-image-1200x400-2-.png
 ---
-
 ![image](./twitter-coverphoto-image-1200x400-2-.png)
 
 ## How You Can Update Your Daycare in an Instant!
@@ -20,7 +19,7 @@ As a daycare owner, you want to monitor attendance carefully. It allows you to r
 
 ### Announcements
 
-If you have adjusted hours, need to make announcements about masks, new sanitizing procedures, or even drop off or pick up changes, you don’t have to post gaudy signs or worry about making phone calls. When you move your facility fully online, there is only one place for parents to look and it requires you to make one post, saving you tons of time and allowing you to keep records of all announcements on a virtual bulletin board style set up. This can also be helpful when being monitored by the state to show them that parents are being kept in the loop of all changes and updates so they can be in the know and abide by any standards set forth. Compliance and cooperation is key.
+If you have adjusted hours, need to make announcements about masks, new sanitizing procedures, or even drop off or pick up changes, you don’t have to post gaudy signs or worry about making phone calls. When you move your facility fully online, there is only one place for parents to look and it requires you to make one post, saving you tons of time and allowing you to keep records of all announcements on a virtual bulletin board style set up. This can also be helpful when being monitored by the state to show them that parents are being kept in the loop of all changes and updates so they can be in the know and abide by any standards set forth.Compliance and cooperation is key.
 
 ### Messaging
 
