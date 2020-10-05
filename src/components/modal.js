@@ -12,7 +12,7 @@ export default function CaptureInfoModal(props) {
 
   function validated() {
     return (
-      email.trim() && validateEmail(email) && name.trim() && daycare.trim()
+      email.trim() && validateEmail(email)
     );
   }
 
@@ -37,21 +37,6 @@ export default function CaptureInfoModal(props) {
             </h3>
             <h4 className="pt-5"></h4>
             <div className="mt-2 flex flex-col text-gray-900">
-              <div className="mt-6">
-                <label htmlFor="name" className="sr-only">
-                  Name (required)
-                </label>
-                <div className="relative rounded-md shadow-sm border-2 border-gray-400">
-                  <input
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    id="name"
-                    autocomplete={"off"}
-                    className="form-input block w-full sm:text-sm leading-8 p-2 text-gray-700 rounded-md"
-                    placeholder="Full name (required)"
-                  />
-                </div>
-              </div>
               <div className="mt-8">
                 <label htmlFor="email" className="sr-only">
                   Email (required)
@@ -64,23 +49,6 @@ export default function CaptureInfoModal(props) {
                     autocomplete={"off"}
                     className="form-input block w-full sm:text-sm leading-8 p-2 text-gray-700 rounded-md "
                     placeholder="Email (required)"
-                  />
-                </div>
-              </div>
-              <div className="mt-8">
-                <label htmlFor="daycare" className="sr-only">
-                  Daycare name (required)
-                </label>
-                <div className="relative rounded-md shadow-sm border-2 border-gray-400">
-                  <input
-                    id="daycare"
-                    value={daycare}
-                    onChange={(e) => {
-                      setDaycare(e.target.value);
-                    }}
-                    autocomplete={"off"}
-                    className="form-input block w-full sm:text-sm  leading-8 p-2 text-gray-700 rounded-md "
-                    placeholder="Daycare (required)"
                   />
                 </div>
               </div>
