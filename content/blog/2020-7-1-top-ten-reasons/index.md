@@ -5,6 +5,7 @@ slug: /blog/top-ten-reasons-why-taking-your-business-online-rocks
 author: TryKidgenius Team
 avatar: ""
 keywords: daycare
+image: online-business.jpg
 ---
 Being a daycare owner is a rewarding, special, and unique job, but it can be challenging at times! Needing to be on top of your game at all times, the organization is key. One fantastic way to always be prepared for anything and everything is by taking your business online.
 
