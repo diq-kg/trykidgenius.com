@@ -22,5 +22,4 @@ collections:
       - { label: "Slug", name: "slug", widget: "string", required: true }
       - { label: "Author", name: "author", widget: "string", required: true }
       - { label: "Keywords", name: "keywords", widget: "string", required: true}
-      - { label: "Image", name: "image", widget: "image", required: false}
       - { label: "Body", name: "body", widget: "markdown", required: true }
