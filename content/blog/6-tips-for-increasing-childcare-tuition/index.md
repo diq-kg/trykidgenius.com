@@ -49,11 +49,7 @@ Be sure to keep your prices competitive, even with your tuition raise. If, after
 
 A good practice is to do surveys and ask parents how they feel about your service, what they believe could improve, and their opinions. Market surveys are also other great tools so that you can have a notion of what the competition is doing and why they have the rates that they have.
 
-
-
-
-
-
+![childcare center](childcare-center.jpg "childcare center")
 
 ### Sample letter for notifying parents of the childcare fee increase
 
