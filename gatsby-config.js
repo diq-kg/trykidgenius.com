@@ -62,7 +62,7 @@ module.exports = {
             options: {
               maxWidth: 1000,
               quality: 95,
-              tracedSVG: true
+              tracedSVG: true,
             },
           },
           `gatsby-transformer-sharp`,
@@ -83,5 +83,11 @@ module.exports = {
       },
     },
     'gatsby-plugin-netlify-cms',
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '772036800029961',
+      },
+    },
   ],
 };
