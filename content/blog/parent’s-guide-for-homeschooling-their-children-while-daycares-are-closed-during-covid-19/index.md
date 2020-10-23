@@ -33,12 +33,18 @@ If your child is being homeschooled, it is also essential to create opportunitie
 In the case that you are going to homeschool your child, but still will be working with the daycare’s program, there are a few things you should ask the childcare center:
 
 * Ask if there will be regular and consistent opportunities every day for peer-to-peer learning;
-* Find out if there will be live video learning classes or pre-recorded videos;
-* Will there be any assignments?;
-* Are there going to be physical activities with social distancing?;
-* Is there school counseling available for emotional and social support?;
-* If your child receives occupational, speech, or physical therapy at the daycare center, ask how will these services continue if he or she is now homeschooled;
-* In the case that you anticipate technological barriers at home for homeschooling, ask the daycare center if they will provide electronic devices for schoolwork;
+
+  Find out if there will be live video learning classes or pre-recorded videos;
+
+  Will there be any assignments?;
+
+  Are there going to be physical activities with social distancing?;
+
+  Is there school counseling available for emotional and social support?;
+
+  If your child receives occupational, speech, or physical therapy at the daycare center, ask how will these services continue if he or she is now homeschooled;
+
+  In the case that you anticipate technological barriers at home for homeschooling, ask the daycare center if they will provide electronic devices for schoolwork.
 
 ### Additional things to consider if homeschooling your child during Covid-19
 
