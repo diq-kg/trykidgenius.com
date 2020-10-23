@@ -1,5 +1,5 @@
 ---
-title: Check out everything you can do with the KidGenius Parents daycare app!
+title: Check out the KidGenius Parents daycare app!
 date: 2020-10-23T16:08:39.351Z
 slug: /blog/Check-out-everything-you-can-do-with-the-KidGenius-Parents-daycare-app
 author: Kid Genius
