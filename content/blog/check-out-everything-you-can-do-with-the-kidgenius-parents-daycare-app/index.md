@@ -39,4 +39,5 @@ KidGenius Parents app will only work for parents with providers that use KidGeni
 
 [![Get Kidgenius Parents on Google Play](google-play-badge.png "Get Kidgenius Parents on Google Play")](https://play.google.com/store/apps/details?id=com.kidgenius.parents)
 
-![](apple-store-app.png)
+[![Get Kidgenius Parents on App Store](apple-store-app.png "Get Kidgenius Parents on Google Play")](https://apps.apple.com/ca/app/kidgenius-parents/id1489814256)
+
