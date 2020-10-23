@@ -37,4 +37,4 @@ The Summary option will allow you to see more details about each activity and if
 
 KidGenius Parents app will only work for parents with providers that use KidGenius Childcare Software. It is available for download for [Android](https://play.google.com/store/apps/details?id=com.kidgenius.parents) and [iOS](https://apps.apple.com/ca/app/kidgenius-parents/id1489814256). Download it on your smartphone today!
 
-![Get Kidgenius Parents on Google Play](google-play-badge.png "Get Kidgenius Parents on Google Play")
+[![Get Kidgenius Parents on Google Play](google-play-badge.png "Get Kidgenius Parents on Google Play")](https://play.google.com/store/apps/details?id=com.kidgenius.parents)
