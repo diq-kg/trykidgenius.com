@@ -17,7 +17,7 @@ export default function Blog({ data }) {
     <Layout>
       <SEO title={title} description={desc} />
       <div className="flex flex-col items-center">
-        <h1 className="md:text-6xl text-3xl font-extrabold mt-8">KidGenius Blog</h1>
+        <h1 className="md:text-4xl text-3xl font-thin mt-8">KidGenius Blog</h1>
         <p className="text-gray-brand-light">
           All the latest KidGenius news straight from the team.
         </p>

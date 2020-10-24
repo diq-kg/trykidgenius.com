@@ -10,10 +10,10 @@ export default function PostPreview(props) {
         <span className="text-gray-500">{date.toDateString()}</span>
       </div>
       <Link to={props.url}>
-        <h1 className="font-brand-bold text-2xl pt-2">{props.title}</h1>
+        <h1 className="font-normal text-2xl pt-2">{props.title}</h1>
       </Link>
-      <div className="pt-6 text-gray-500">
-        <p>{props.fold}</p>
+      <div className="pt-6 text-gray-700">
+        <p className="leading-loose font-thin">{props.fold}</p>
       </div>
       <Link to={props.url} className="pt-6 text-brand-primary font-medium">
         Read more →

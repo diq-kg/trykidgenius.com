@@ -72,9 +72,10 @@ module.exports = {
             resolve: 'gatsby-remark-classes',
             options: {
               classMap: {
-                paragraph: 'pt-2 pb-2',
-                'heading[depth=3]': 'sm:text-xl font-brand-bold py-4',
-                'heading[depth=2]': 'text-xl sm:text-2xl font-brand-bold py-4',
+                paragraph: 'pt-2 pb-3',
+                'heading[depth=3]': 'sm:text-xl py-4',
+                'heading[depth=2]': 'text-xl sm:text-2xl py-4',
+                'heading[depth=]': 'text-xl sm:text-2xl py-4',
                 link: 'text-brand-primary',
               },
             },
@@ -89,5 +90,22 @@ module.exports = {
         pixelId: '772036800029961',
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-marketing-platform',
+      options: {
+        dataLayer: {
+          // Preset dataLayer values
+          gaPropertyId: '[Google Analytics ID]',
+        },
+        tagmanager: {
+          id: 'GTM-TW9R9RZ',
+          params: {
+            // GTM URL Parameters
+            // Ex: https://www.googletagmanager.com/gtm.js?id=[ID]&gtm_cookies_win=x
+            gtm_cookies_win: 'x'
+          }
+        },
+      }
+    }
   ],
 };

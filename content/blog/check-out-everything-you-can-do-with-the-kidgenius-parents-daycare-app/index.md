@@ -5,7 +5,7 @@ slug: /blog/Check-out-everything-you-can-do-with-the-KidGenius-Parents-daycare-a
 author: Kid Genius
 keywords: kidgenius parents, daycare app, kidgenius app
 ---
-## We are excited to present the new KidGenius Parents app that will allow you to keep track of everything your child is doing at his daycare center. You can know in real-time if your child took his nap, had his meal, and had a great time playing during the day!
+We are excited to present the new KidGenius Parents app that will allow you to keep track of everything your child is doing at his daycare center. You can know in real-time if your child took his nap, had his meal, and had a great time playing during the day!
 
 But, that is not all you can do with the KidGenius Parents daycare app! This app enables parents to:
 
