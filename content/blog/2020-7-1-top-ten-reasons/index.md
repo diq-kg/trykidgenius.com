@@ -1,8 +1,8 @@
 ---
-title: The Top Ten Reasons Why Taking Your Business Online Rocks!
+title: Top 10 reasons to take your daycare business online
 date: 2020-06-30
-slug: /blog/top-ten-reasons-why-taking-your-business-online-rocks
-author: TryKidgenius Team
+slug: /blog/top-ten-reasons-to-take-your-daycare-business-online
+author: Kid Genius
 avatar: ""
 keywords: daycare
 image: ""
