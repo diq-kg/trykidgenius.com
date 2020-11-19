@@ -31,6 +31,8 @@ Good leaders learn that they have to be authentic and transparent. Trust is very
 
 Whenever a discussion arises in the workplace, don’t assume everyone will work it out like the adults they are. Sometimes, a third party is necessary to help resolve conflict. Remember, you will want to build an environment with mutual respect, trust, and transparency.
 
+![daycare staff](daycare-staff.jpg "daycare staff")
+
 ### Know how to identify areas of growth
 
 It is very different from asking people to do more and more rather than identifying areas in the daycare business where they would like to grow. For instance, one of your teachers could also be good at graphic design. Perhaps she wouldn’t mind taking the role of the company’s designer. Your business benefits from her abilities, and she benefits from an opportunity to grow in that professional area as well.
