@@ -47,6 +47,8 @@ Teach the children how to use the toys properly and stay away from moving equipm
 
 Whenever you buy new toys or receive them as a donation, remember to clean them and check if they are in good condition. Do not accept choking hazards or recalls, or anything sharp or breakable.
 
+![childcare center](childcare-center.jpg "childcare center")
+
 ### How do you sanitize toys?
 
 Before sanitizing toys, they should be cleaned thoroughly—surfaces and potty chairs too. Use soap and water and rinse thoroughly. Then, disinfect with bleach and water solution.
