@@ -151,6 +151,13 @@ function Header({ siteTitle }) {
           Pricing
         </a>
         <a
+          className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:p0 lg:px-4 lg:ml-2 lg:pt-3"
+          target="_blank"
+          href="https://trykidgenius.customerly.help/"
+        >
+          Help Center
+        </a>
+        <a
           href="/#faq"
           className="block font-semibold hover:bg-gray-300 rounded px-2 py-1 mt-1 lg:mt-0 lg:ml-2 lg:p0 lg:px-4 lg:pt-3"
         >
