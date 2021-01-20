@@ -2,7 +2,7 @@
 title: "10 reasons why daycares should use a childcare management software "
 date: 2021-01-20T13:33:51.618Z
 slug: /blog/10-reasons-why-daycares-should-use-a-childcare-management-software
-author: Kid Genius
+author: Vanessa Serrao
 keywords: childcare management software, daycare management software, daycare,
   childcare, day care
 ---
