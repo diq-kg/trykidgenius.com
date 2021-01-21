@@ -2,7 +2,7 @@
 title: 8 reasons you need an app for your daycare center
 date: 2020-11-06T20:56:40.569Z
 slug: /blog/8-reasons-you-need-an-app-for-your-daycare-center
-author: Kid Genius
+author: Ermelinda Maglione
 keywords: daycare center
 ---
 ![daycer center](daycare-center.jpg "daycer center")
