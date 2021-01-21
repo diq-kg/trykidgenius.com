@@ -3,7 +3,7 @@ title: Is your child care center closed? Tips on how to stay in contact with the
   parents
 date: 2020-11-28T16:14:19.505Z
 slug: /blog/Is-your-child-care-center-closed-Tips-on-how-to-stay-in-contact-with-the-parents
-author: Kid Genius
+author: Ermelinda Maglione
 keywords: childcare, daycare center, child care center
 ---
 ![childcare center](child-care-center.jpg "childcare center")
