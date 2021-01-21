@@ -3,7 +3,7 @@ title: How to have the right financial mindset for your daycare business? - 5
   ways a childcare management software can help you
 date: 2021-01-05T18:50:20.708Z
 slug: /blog/How-to-have-the-right-financial-mindset-for-your-daycare-business-5ways-a-childcare-management-software-can-help-you
-author: Kid Genius
+author: Ermelinda Maglione
 keywords: childcare management software
 ---
 ![](childcare-management-software.jpg)
