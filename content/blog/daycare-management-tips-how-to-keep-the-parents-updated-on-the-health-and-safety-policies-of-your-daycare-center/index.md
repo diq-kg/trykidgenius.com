@@ -3,7 +3,7 @@ title: "Daycare management tips: how to keep the parents updated on the health
   and safety policies of your daycare center?"
 date: 2020-12-15T21:59:53.980Z
 slug: /blog/Daycare-management-tips-how-to-keep-the-parents-updated-on-the-health-and-safety-policies-of-your-daycare-center
-author: Kid Genius
+author: Ermelinda Maglione
 keywords: daycare management
 ---
 ![daycare management](daycare-management.jpg "daycare management")
