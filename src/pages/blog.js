@@ -31,6 +31,7 @@ export default function Blog({ data }) {
                   date={localDate(edge.node.frontmatter.date)}
                   fold={edge.node.excerpt}
                   url={edge.node.frontmatter.slug}
+                  author={edge.node.frontmatter.author}
                 />
               </div>
             ))}
