@@ -3,7 +3,7 @@ title: Guide for reopening your child care center during Covid-19 - Safety
   measures to take
 date: 2020-11-12T00:11:43.264Z
 slug: /blog/guide-for-reopening-your-child-care-center-during-Covid-19-Safety-measures-to-take
-author: Kid Genius
+author: Ermelinda Maglione
 keywords: child care
 ---
 ![child care](child-care.jpg "child care")
