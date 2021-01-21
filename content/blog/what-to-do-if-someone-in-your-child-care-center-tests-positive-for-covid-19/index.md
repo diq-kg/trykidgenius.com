@@ -2,7 +2,7 @@
 title: What to do if someone in your child care center tests positive for Covid-19?
 date: 2020-12-08T23:36:42.981Z
 slug: /blog/what-to-do-if-someone-in-your-child-care-center-tests-positive-for-Covid-19
-author: Kid Genius
+author: Ermelinda Maglione
 keywords: child care center
 ---
 ![child care center](child-care-center.jpg "What to do if someone tests positive at your child care center")
