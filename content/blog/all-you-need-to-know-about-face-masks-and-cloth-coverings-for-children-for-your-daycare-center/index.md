@@ -3,7 +3,7 @@ title: All you need to know about face masks and cloth coverings for children in
   your daycare center
 date: 2021-01-12T18:21:43.803Z
 slug: /blog/All-you-need-to-know-about-face-masks-and-cloth-coverings-for-children-in-your-daycare-center
-author: Kid Genius
+author: Ermelinda Maglione
 keywords: daycare center, daycare management software, childcare management
   software, childcare, daycare, day care, daycare activities, daycare management
   app, app for daycare, kid genius, kidgenius, child care center, daycare
