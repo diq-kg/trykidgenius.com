@@ -7,6 +7,7 @@ import SEO from '../components/seo';
 export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, html, excerpt } = markdownRemark;
+  console.log(frontmatter);
   const date = new Date(frontmatter.date);
   return (
     <Layout>
@@ -22,13 +23,8 @@ export default function Template({ data }) {
         <h1 className="text-center max-w-5xl text-2xl sm:text-2xl md:text-3xl lg:text-4xl md:leading-none pb-2 sm:pb-6">
           {frontmatter.title}
         </h1>
-        <p>
-          <a
-            href="https://www.twitter.com/trykidgenius/"
-            className="text-brand-primary"
-          >
-            @trykidgenius
-          </a>
+        <p className="text-lg font-medium text-gray-700">
+           <span className="text-sm">written by</span> {frontmatter.author}
         </p>
         <div
           className="mt-10 pt-10 max-w-4xl border border-gray-400 border-t-1 border-b-0 border-l-0 border-r-0 markdown"
@@ -50,6 +46,7 @@ export const pageQuery = graphql`
       html
       excerpt(pruneLength: 200)
       frontmatter {
+        author
         date
         slug
         title

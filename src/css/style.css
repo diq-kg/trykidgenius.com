@@ -130,6 +130,11 @@
   }
   .markdown ol {
     @apply list-decimal;
+    @apply ml-1;
+  }
+  
+  .markdown ol > li > h2 {
+    @apply text-lg
   }
   .markdown ul {
     @apply list-disc;
