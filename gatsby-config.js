@@ -5,6 +5,7 @@ module.exports = {
     twitter: '@trykidgenius',
     description: `KidGenius is the easy way to manage a daycare.`,
     url: 'https://www.trykidgenius.com',
+    siteUrl: 'https://www.trykidgenius.com',
     keywords: [
       'daycare',
       'dayhome',
@@ -19,6 +20,7 @@ module.exports = {
     fbAppId: '773103229471525',
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -106,6 +108,7 @@ module.exports = {
           }
         },
       }
-    }
+    },
+    
   ],
 };
