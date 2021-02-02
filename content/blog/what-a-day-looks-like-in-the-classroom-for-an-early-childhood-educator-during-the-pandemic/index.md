@@ -2,8 +2,7 @@
 title: "What a day looks like in the classroom for an early childhood educator
   during the pandemic "
 date: 2021-02-02T19:59:57.618Z
-slug: "/blog/what-a-day-looks-like-in-the-classroom-for-an-early-childhood-educ\
-  ator-during-the-pandemic "
+slug: /blog/what-a-day-looks-like-in-the-classroom-for-an-early-childhood-educator-during-the-pandemic
 author: Vanessa Serrao
 keywords: childcare management software, daycare management software, daycare,
   childcare, day care
