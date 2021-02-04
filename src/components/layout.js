@@ -23,7 +23,7 @@ function Layout({ children }) {
           <div className="p-3 mb-12">{children}</div>
           <Footer />
           <div className="text-gray-brand-light ml-2">
-            KidGenius © 2020, All rights reserved.
+            KidGenius © { (new Date().getFullYear()) }, All rights reserved.
           </div>
         </div>
       )}
