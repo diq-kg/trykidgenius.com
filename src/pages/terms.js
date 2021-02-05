@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 function Terms() {
   const title = 'KidGenius | Terms of Service';
   const desc =
-    'KidGenius terms of service for our daycare management software website.';
+    'KidGenius terms of service for our childcare management software website.';
 
   return (
     <Layout>
@@ -20,9 +20,8 @@ function Terms() {
           </h2>
           <div className="w-2/3 sm:w-3/4 pt-8">
             <p className="pt-2">
-              By using the "www.daycareiq.com" or "kidgenius.daycareiq.com" or
-              "www.trykidgenius.com" web sites ("The Service", "Our Site"), or
-              any services of DaycareIQ ("We", "Us", "The Company"), you are
+              By using the "www.trykidgenius.com" web sites ("The Service", "Our Site"), or
+              any services of KidGenius ("We", "Us", "The Company"), you are
               agreeing to be bound by the following terms and conditions ("Terms
               of Service"). IF YOU ARE ENTERING INTO THIS AGREEMENT ON BEHALF OF
               A COMPANY OR OTHER LEGAL ENTITY, YOU REPRESENT THAT YOU HAVE THE
@@ -42,8 +41,7 @@ function Terms() {
               to the Terms of Service. Continued use of The Service after any
               such changes shall constitute your consent to such changes. You
               can review the most current version of the Terms of Service at any
-              time at: "https://kidgenius.daycareiq.com/terms" for KidGenius,
-              and "https://www.daycareiq.com/terms" for DaycareIQ.{' '}
+              time at: "https://kidgenius.com/terms" for KidGenius              
             </p>
             <p className="pt-4">
               Violation of any of the terms below will result in the termination

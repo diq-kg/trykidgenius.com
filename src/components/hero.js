@@ -31,14 +31,14 @@ function Hero(props) {
                 onClick={startTrial}
                 className="w-40 h-12 mr-4 text-white font-bold rounded bg-brand-primary transition duration-150 ease-in-out hover:shadow-md"
               >
-                Start free trial
+                Get started
               </button>
-              <button
+              {/* <button
                 onClick={tryDemo}
                 className="w-40 h-12 rounded border-2 transition duration-150 ease-in-out hover:shadow-md"
               >
                 Try live demo
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
