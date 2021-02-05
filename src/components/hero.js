@@ -31,7 +31,7 @@ function Hero(props) {
                 onClick={startTrial}
                 className="w-40 h-12 mr-4 text-white font-bold rounded bg-brand-primary transition duration-150 ease-in-out hover:shadow-md"
               >
-                Get started
+                Try it free
               </button>
               {/* <button
                 onClick={tryDemo}
