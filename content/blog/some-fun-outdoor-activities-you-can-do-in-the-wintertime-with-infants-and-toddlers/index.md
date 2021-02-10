@@ -38,6 +38,8 @@ It permits fun, enjoyment, and excitement that will guide their curious minds an
 
 ![daycare management software](daycare-management-software.jpg "daycare management software")
 
+Photo from [No Time For Flash Cards](https://www.notimeforflashcards.com/2015/03/spring-fine-motor-tray-activity.html)
+
 This is an activity you can do both indoors and outdoors. I believe it to be a good outdoor activity you can incorporate if you aren’t sure what you can do with toddlers as an activity outside. As well, you should always be promoting activities that help develop young children’s fine motor skills.
 
 You can purchase all the items for this activity that you will need from the dollar store. All you need is a pot strainer or something with holes in it, and pretend flowers. The goal is for the children to place the flowers in the holes. And again this promotes their fine motor skills and helps develop them.
