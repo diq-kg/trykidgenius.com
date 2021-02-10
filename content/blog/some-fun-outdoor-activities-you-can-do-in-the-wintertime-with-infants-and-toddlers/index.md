@@ -14,7 +14,9 @@ As an early childhood educator, you want to do creative activities with your chi
 
 ## **Snow paint**
 
-![children activities](children-activities.jpg "children activities")
+![children activities](unnamed.jpg "children activities")
+
+Photo by [Vanessa Serrao](http://vanessa-serrao.com/)
 
 Snow paint for the outdoors is a creative and fun activity you can do with infants and toddlers. All you need is a spray bottle, water, and paint. You mix a spray bottle with some paint and water and voilà you have a fun and simple activity you can do outside.
 
@@ -36,10 +38,11 @@ It permits fun, enjoyment, and excitement that will guide their curious minds an
 
 ## Fine Motor Tray with Flowers
 
-![daycare management software](daycare-management-software.jpg "daycare management software")
+![daycare management software](unnamed-1-.jpg "daycare management software")
 
 Photo from [No Time For Flash Cards](https://www.notimeforflashcards.com/2015/03/spring-fine-motor-tray-activity.html)
 
+\
 This is an activity you can do both indoors and outdoors. I believe it to be a good outdoor activity you can incorporate if you aren’t sure what you can do with toddlers as an activity outside. As well, you should always be promoting activities that help develop young children’s fine motor skills.
 
 You can purchase all the items for this activity that you will need from the dollar store. All you need is a pot strainer or something with holes in it, and pretend flowers. The goal is for the children to place the flowers in the holes. And again this promotes their fine motor skills and helps develop them.
