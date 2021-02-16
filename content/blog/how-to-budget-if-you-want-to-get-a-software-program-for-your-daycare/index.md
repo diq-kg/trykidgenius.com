@@ -1,7 +1,7 @@
 ---
 title: "How to budget if you want to get a software program for your daycare "
 date: 2021-02-16T21:17:53.447Z
-slug: "/blog/how-to-budget-if-you-want-to-get-a-software-program-for-your-daycare "
+slug: /blog/how-to-budget-if-you-want-to-get-a-software-program-for-your-daycare
 author: Vanessa Serrao
 keywords: daycare management, daycare, childcare, childcare management, daycare software
 ---
