@@ -20,7 +20,7 @@ export default function Footer() {
         <a href="https://www.facebook.com/daycareiq/" className="px-2">
           <FB />
         </a>
-        <a href="https://twitter.com/Daycareiq" className="px-2">
+        <a href="https://twitter.com/trykidgenius" className="px-2">
           <Twitter />
         </a>
       </div>
