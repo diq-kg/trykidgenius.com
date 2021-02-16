@@ -57,8 +57,9 @@ Essentially, you want to choose a software that fits your budget and best meets 
 
 ![daycare software](daycare-software-comparison.png "daycare software")
 
-## \
-Some rules of thumb to follow with budgeting
+
+
+## Some rules of thumb to follow with budgeting
 
 ![daycare software](daycare-software.jpg "daycare software")
 
