@@ -17,7 +17,7 @@ export default function Footer() {
         </Link>
       </div>
       <div className="flex">
-        <a href="https://www.facebook.com/daycareiq/" className="px-2">
+        <a href="https://www.facebook.com/trykidgenius/" className="px-2">
           <FB />
         </a>
         <a href="https://twitter.com/trykidgenius" className="px-2">
