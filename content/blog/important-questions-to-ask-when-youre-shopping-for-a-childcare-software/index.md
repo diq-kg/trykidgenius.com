@@ -3,7 +3,8 @@ title: "Important questions to ask when you're shopping for a childcare software
 date: 2021-02-23T21:00:11.062Z
 slug: /blog/important-questions-to-ask-when-youre-shopping-for-a-childcare-software
 author: Vanessa Serrao
-keywords: daycare, daycare management, daycare software, childcare, childcare management
+keywords: daycare, daycare management, daycare software, childcare, childcare
+  management, childcare management software, daycare management software
 ---
 ![childcare software](childcare-software.jpg "childcare software")
 
