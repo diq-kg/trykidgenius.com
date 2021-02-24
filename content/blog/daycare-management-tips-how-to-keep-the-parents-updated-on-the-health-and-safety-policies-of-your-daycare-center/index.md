@@ -4,7 +4,7 @@ title: "Daycare management tips: how to keep the parents updated on the health
 date: 2020-12-15T21:59:53.980Z
 slug: /blog/Daycare-management-tips-how-to-keep-the-parents-updated-on-the-health-and-safety-policies-of-your-daycare-center
 author: Ermelinda Maglione
-keywords: daycare management
+keywords: daycare management, childcare management software, daycare management software
 ---
 ![daycare management](daycare-management.jpg "daycare management")
 
