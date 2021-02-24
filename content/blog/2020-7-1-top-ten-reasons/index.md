@@ -4,7 +4,7 @@ date: 2020-06-30
 slug: /blog/top-ten-reasons-to-take-your-daycare-business-online
 author: Kid Genius
 avatar: ""
-keywords: daycare
+keywords: daycare, childcare management software, daycare management software
 image: ""
 ---
 ![Picture of iphone](online-business.jpg)
