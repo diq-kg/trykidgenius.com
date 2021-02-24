@@ -3,7 +3,8 @@ title: Tips for building a successful daycare staff team
 date: 2020-11-19T21:06:08.211Z
 slug: /blog/tips-for-building-a-successful-daycare-staff-team
 author: Ermelinda Maglione
-keywords: daycare, daycare staff
+keywords: daycare, daycare staff, childcare management software, daycare
+  management software
 ---
 ![daycare](daycare.jpg "daycare staff")
 
