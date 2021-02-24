@@ -3,7 +3,7 @@ title: 5 reasons why parent apps work for your daycare business
 date: 2020-10-31T22:09:13.610Z
 slug: /blog/5-reasons-why-parent-apps-work-for-your-daycare-business
 author: Ermelinda Maglione
-keywords: parent app
+keywords: parent app, childcare management software, daycare management software
 ---
 ![parent app](parent-app.jpg "parent app")
 
