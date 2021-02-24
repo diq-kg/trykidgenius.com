@@ -4,7 +4,8 @@ title: "Some fun outdoor activities you can do in the wintertime with infants
 date: 2021-02-09T20:51:03.202Z
 slug: /blog/Some-fun-outdoor-activities-you-can-do-in-the-wintertime-with-infants-and-toddlers
 author: Vanessa Serrao
-keywords: daycare management, daycare, childcare, childcare management, daycare software
+keywords: daycare management, daycare, childcare, childcare management, daycare
+  software, childcare management software, daycare management software
 ---
 ![childcare software](childcare-software.jpg "childcare software")
 
