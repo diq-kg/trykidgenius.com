@@ -3,7 +3,7 @@ title: 6 Tips for increasing childcare tuition
 date: 2020-10-09T13:14:16.368Z
 slug: /blog/6-tips-for-increasing-childcare-tuition
 author: Ermelinda Maglione
-keywords: childcare
+keywords: childcare, childcare management software, daycare management software
 ---
 ![childcare](childcare.jpg "childcare")
 
