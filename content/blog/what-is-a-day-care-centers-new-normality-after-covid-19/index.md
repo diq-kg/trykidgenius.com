@@ -3,7 +3,7 @@ title: What is a day care center's new normality after Covid-19?
 date: 2020-12-22T22:55:32.514Z
 slug: /blog/What-is-a-day-care-centers-new-normality-after-Covid-19
 author: Ermelinda Maglione
-keywords: day care center
+keywords: day care center, childcare management software, daycare management software
 ---
 ![day care center](day-care-center.jpg "day care center")
 
