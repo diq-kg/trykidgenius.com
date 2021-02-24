@@ -4,7 +4,7 @@ title: Guide for reopening your child care center during Covid-19 - Safety
 date: 2020-11-12T00:11:43.264Z
 slug: /blog/guide-for-reopening-your-child-care-center-during-Covid-19-Safety-measures-to-take
 author: Ermelinda Maglione
-keywords: child care
+keywords: child care, childcare management software, daycare management software
 ---
 ![child care](child-care.jpg "child care")
 
