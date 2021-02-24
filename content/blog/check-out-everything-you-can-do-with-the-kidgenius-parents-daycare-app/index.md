@@ -3,7 +3,8 @@ title: Check out the KidGenius Parents daycare app!
 date: 2020-10-23T16:08:39.351Z
 slug: /blog/Check-out-everything-you-can-do-with-the-KidGenius-Parents-daycare-app
 author: Ermelinda Maglione
-keywords: kidgenius parents, daycare app, kidgenius app
+keywords: kidgenius parents, daycare app, kidgenius app, childcare management
+  software, daycare management software
 ---
 We are excited to present the new KidGenius Parents app that will allow you to keep track of everything your child is doing at his daycare center. You can know in real-time if your child took his nap, had his meal, and had a great time playing during the day!
 
