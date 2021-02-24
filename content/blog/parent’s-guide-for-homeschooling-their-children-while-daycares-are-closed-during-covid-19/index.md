@@ -4,7 +4,8 @@ title: Parent’s guide for homeschooling their children while daycares are clos
 date: 2020-10-23T13:25:19.395Z
 slug: /blog/Parents-guide-for-homeschooling-their-children-while-daycares-are-closed-during-Covid-19
 author: Ermelinda Maglione
-keywords: homeshooling, covid-19, daycare center
+keywords: homeshooling, covid-19, daycare center, childcare management software,
+  daycare management software
 ---
 ![daycare center](daycare-center.jpg "daycare center")
 
