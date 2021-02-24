@@ -4,7 +4,7 @@ date: 2020-07-01
 slug: /blog/going-digital-in-a-changing-world
 author: TryKidgenius Team
 avatar: ""
-keywords: KidGenius
+keywords: KidGenius, childcare management software, daycare management software
 image: twitter-coverphoto-image-1200x400-2-.png
 ---
 ![image](./twitter-coverphoto-image-1200x400-2-.png)
