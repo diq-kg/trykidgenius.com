@@ -4,7 +4,7 @@ title: Plan ahead for reopening your business - Why a childcare management
 date: 2020-12-04T20:42:02.982Z
 slug: /blog/Plan-ahead-for-reopening-your-business-Why-a-childcare-management-software-can-help-you
 author: Ermelinda Maglione
-keywords: childcare management software
+keywords: "childcare management software, daycare management software "
 ---
 ![childcare management software](childcare-management-software.jpg "childcare management software")
 
