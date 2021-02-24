@@ -3,7 +3,8 @@ title: 5 essential tools you need for better daycare management
 date: 2020-10-16T14:28:27.161Z
 slug: /blog/5-essential-tools-you-need-for-better-daycare-management
 author: Ermelinda Maglione
-keywords: daycare management, daycare, childcare, childcare management, daycare software
+keywords: daycare management, daycare, childcare, childcare management, daycare
+  software, childcare management software, daycare management software
 ---
 ![daycare management](daycare-management.jpg "daycare management")
 
