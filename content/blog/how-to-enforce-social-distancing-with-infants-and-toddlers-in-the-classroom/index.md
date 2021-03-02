@@ -36,4 +36,4 @@ Some activities that you can do are drawing chalk circles or outlining circles w
 
 Also getting children to sit distanced apart and having them draw with chalk is a good way to promote social distancing. Keeping in mind whenever you are setting up an activity have the children positioned so that they are distanced apart and reminding them to remain in their spots. This should be done during a meal, or circle time as well.
 
-Learn more about KidGenius childcare management software today and request your [d30-day free trial](https://trykidgenius.com/)!
+Learn more about KidGenius childcare management software today and request your [30-day free trial](https://trykidgenius.com/)!
