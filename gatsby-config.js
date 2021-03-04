@@ -71,7 +71,6 @@ module.exports = {
           },
           `gatsby-transformer-sharp`,
           `gatsby-plugin-sharp`,
-          ,
           {
             resolve: 'gatsby-remark-classes',
             options: {

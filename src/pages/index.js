@@ -61,13 +61,13 @@ function IndexPage() {
         <Features id="features" />
       </Pad>
       <Pad>
+        <Quotes />
+      </Pad>
+      <Pad>
         <Pricing id="pricing" />
       </Pad>
       <Pad>
         <Faq id="faq" />
-      </Pad>
-      <Pad>
-        <Quotes />
       </Pad>
       <Pad>
         <Try />

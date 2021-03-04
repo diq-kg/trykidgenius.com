@@ -19,10 +19,10 @@ function Hero(props) {
           <div>
             <h1 className="text-5xl leading-tight font-brand-bold pb-4">
               Manage and grow
-              <br className="hidden sm:block" /> your daycare
+              <br className="hidden sm:block" /> your childcare
             </h1>
             <p className="text-lg pt-2 pb-4">
-              KidGenius is a platform designed for daycares to track,
+              KidGenius is a platform designed for childcares to track,
               <br className="hidden sm:block" /> plan, report, and communicate —
               all in one place.
             </p>
