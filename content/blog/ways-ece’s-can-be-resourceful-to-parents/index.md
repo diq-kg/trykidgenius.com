@@ -1,7 +1,7 @@
 ---
 title: "Ways ECE’s can be resourceful to parents "
 date: 2021-03-16T23:08:07.416Z
-slug: "/blog/ways-eces-can-be-resourceful-to-parents "
+slug: /blog/ways-eces-can-be-resourceful-to-parents
 author: Vanessa Serrao
 keywords: daycare management, daycare, childcare, childcare management, daycare
   software, daycare management software, childcare management software
