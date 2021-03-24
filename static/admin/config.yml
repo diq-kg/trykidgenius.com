@@ -23,3 +23,6 @@ collections:
       - { label: "Author", name: "author", widget: "string", required: true }
       - { label: "Keywords", name: "keywords", widget: "string", required: true}
       - { label: "Body", name: "body", widget: "markdown", required: true }
+      - { label: "Description", name: "description", widget: "text"}
+      - { label: "Featured Image", name: "featuredImage", widget: image}
+      - { label: "Featured image caption", name: "featuredImageCaption", widget: "text"}
