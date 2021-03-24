@@ -12,9 +12,13 @@ export default function Template({ data }) {
   return (
     <Layout>
       <SEO
+        url={`/blog/${frontmatter.slug}`}
+        image={frontmatter.featuredImage.absolutePath}
         title={frontmatter.title}
         keywords={frontmatter.keywords || ''}
-        description={excerpt}
+        description={
+          frontmatter.description || frontmatter.description.length > 0 ? frontmatter.description : excerpt
+        }
       />
       <div className="flex flex-col pl-3 pt-10 items-center">
         <h3 className="text-gray-600 font-medium pb-2 sm:pb-6">
@@ -24,8 +28,15 @@ export default function Template({ data }) {
           {frontmatter.title}
         </h1>
         <p className="text-lg font-medium text-gray-700">
-           <span className="text-sm">written by</span> {frontmatter.author}
+          <span className="text-sm">written by</span> {frontmatter.author}
         </p>
+        {frontmatter.featuredImage && (
+          <div className="mt-5 pt-5 max-w-4xl">
+            <img src={frontmatter.featuredImage.publicURL} />
+            <p className="mt-5 text-xs markdown text-gray-600" dangerouslySetInnerHTML={{ __html: frontmatter.featuredImageCaption }}
+            ></p>
+          </div>
+        )}
         <div
           className="mt-10 pt-10 max-w-4xl border border-gray-400 border-t-1 border-b-0 border-l-0 border-r-0 markdown"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -44,13 +55,20 @@ export const pageQuery = graphql`
   query($slug: String!) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
-      excerpt(pruneLength: 200)
+      excerpt(pruneLength: 250)
       frontmatter {
         author
         date
         slug
         title
         keywords
+        description
+        featuredImageCaption
+        featuredImage {
+          publicURL
+          absolutePath
+          relativePath
+        }
       }
     }
   }

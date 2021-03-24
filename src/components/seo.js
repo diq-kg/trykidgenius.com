@@ -19,7 +19,7 @@ function getKeywords(keywords, backup) {
   return _keywords;
 }
 
-function SEO({ description, lang, meta, keywords, title, author }) {
+function SEO({ description, lang, meta, keywords, title, author, image, url }) {
   return (
     <StaticQuery
       query={detailsQuery}
@@ -41,7 +41,7 @@ function SEO({ description, lang, meta, keywords, title, author }) {
               },
               {
                 property: `og:url`,
-                content: data.site.siteMetadata.url
+                content: url || data.site.siteMetadata.url
               },
               {
                 property: `og:site_name`,
@@ -57,7 +57,7 @@ function SEO({ description, lang, meta, keywords, title, author }) {
               },
               {
                 property: `og:image`,
-                content: illustration
+                content: image || illustration
               },
               {
                 property: `og:type`,
@@ -75,9 +75,9 @@ function SEO({ description, lang, meta, keywords, title, author }) {
                 name: `twitter:title`,
                 content: title || data.site.siteMetadata.title
               },
-              {
+              { 
                 name: `twitter:image`,
-                content: illustration
+                content: image || illustration
               },
               {
                 name: `twitter:description`,

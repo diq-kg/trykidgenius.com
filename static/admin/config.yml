@@ -5,6 +5,8 @@ backend:
   auth_type: implicit
   app_id: qQdGSV3ZJUkxmbWYtm
 
+local_backend: true
+
 media_folder: "static/images/uploads"
 
 collections:
@@ -22,7 +24,7 @@ collections:
       - { label: "Slug", name: "slug", widget: "string", required: true }
       - { label: "Author", name: "author", widget: "string", required: true }
       - { label: "Keywords", name: "keywords", widget: "string", required: true}
+      - { label: "Description", name: "description", widget: "text", required: false}
+      - { label: "Featured Image", name: "featuredImage", widget: image, required: false}
+      - { label: "Featured image caption", name: "featuredImageCaption", widget: "markdown", required: false}
       - { label: "Body", name: "body", widget: "markdown", required: true }
-      - { label: "Description", name: "description", widget: "text"}
-      - { label: "Featured Image", name: "featuredImage", widget: image}
-      - { label: "Featured image caption", name: "featuredImageCaption", widget: "text"}

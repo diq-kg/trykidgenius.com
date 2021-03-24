@@ -22,18 +22,19 @@ export default function Blog({ data }) {
           All the latest KidGenius news straight from the team.
         </p>
         <div className="flex pt-4 lg:pt-8 pl-3 mt-4">
-          <div className="flex flex-col">
+          <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-4 lg:max-w-none">
             {edges.map((edge, key) => (
-              <div className="pt-8 border border-gray-300 border-t-1 border-r-0 border-l-0 border-b-0">
+              // <div className="pt-8 border border-gray-300 border-t-1 border-r-0 border-l-0 border-b-0">
                 <PostPreview
                   key={key}
+                  image={edge.node.frontmatter.featuredImage}
                   title={edge.node.frontmatter.title}
                   date={localDate(edge.node.frontmatter.date)}
-                  fold={edge.node.excerpt}
+                  excerpt={edge.node.description || edge.node.excerpt}
                   url={edge.node.frontmatter.slug}
                   author={edge.node.frontmatter.author}
                 />
-              </div>
+              // </div>
             ))}
           </div>
         </div>
@@ -49,7 +50,7 @@ function localDate(_date) {
 
 export const pageQuery = graphql`
   query MyQuery {
-    allMarkdownRemark(limit: 10, sort: {order: DESC, fields: frontmatter___date}) {
+    allMarkdownRemark(limit: 200, sort: {order: DESC, fields: frontmatter___date}) {
       totalCount
       edges {
         node {
@@ -59,6 +60,10 @@ export const pageQuery = graphql`
             date
             slug
             title
+            description
+            featuredImage {
+              publicURL
+            }
           }
           excerpt(pruneLength: 300)
           timeToRead
