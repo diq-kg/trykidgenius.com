@@ -5,10 +5,12 @@ slug: /blog/how-to-budget-if-you-want-to-get-a-software-program-for-your-daycare
 author: Vanessa Serrao
 keywords: daycare management, daycare, childcare, childcare management, daycare
   software, childcare management software, daycare management software
+featuredImage: budget-daycare.jpg
+featuredImageCaption: "***Photo by Pixaby from
+  [Pexels](https://www.pexels.com/photo/black-calculator-near-ballpoint-pen-on-\
+  white-printed-paper-53621/)***"
 ---
-![budget daycare](budget-daycare.jpg "budget daycare")
 
-***Photo by Pixaby from [Pexels](https://www.pexels.com/photo/black-calculator-near-ballpoint-pen-on-white-printed-paper-53621/)***
 
 Budgeting is very important when it comes to running a profitable childcare center. If you are considering purchasing software then you need to make sure you can afford to get one. In fact, you might need to budget if getting a childcare software program is high on your list of needs.
 
@@ -57,8 +59,6 @@ These are some common add-on applications that softwares include:
 Essentially, you want to choose a software that fits your budget and best meets your needs. There are many more software programs out there but these are a few to name.
 
 ![daycare software](daycare-software-comparison.png "daycare software")
-
-
 
 ## Some rules of thumb to follow with budgeting
 
