@@ -6,11 +6,13 @@ slug: /blog/Some-fun-outdoor-activities-you-can-do-in-the-wintertime-with-infant
 author: Vanessa Serrao
 keywords: daycare management, daycare, childcare, childcare management, daycare
   software, childcare management software, daycare management software
+featuredImage: childcare-software.jpg
+featuredImageCaption: "***Photo by [Victoria
+  Borodinova](https://www.pexels.com/@victoria-borodinova-392079?utm_content=at\
+  tributionCopyText&utm_medium=referral&utm_source=pexels) from
+  [Pexels](https://www.pexels.com/photo/woman-and-child-playing-in-snow-1620651\
+  /?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)***"
 ---
-![childcare software](childcare-software.jpg "childcare software")
-
-***Photo by [Victoria Borodinova](https://www.pexels.com/@victoria-borodinova-392079?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/woman-and-child-playing-in-snow-1620651/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)***
-
 As an early childhood educator, you want to do creative activities with your children. Here are some great ideas for you to do!
 
 ## **Snow paint**
