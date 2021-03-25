@@ -2,13 +2,12 @@
 title: Top 10 reasons to take your daycare business online
 date: 2020-06-30
 slug: /blog/top-ten-reasons-to-take-your-daycare-business-online
-author: Kid Genius
-avatar: ""
+author: KidGenius
 keywords: daycare, childcare management software, daycare management software
+featuredImage: online-business.jpg
+avatar: ""
 image: ""
 ---
-![Picture of iphone](online-business.jpg)
-
 Being a daycare owner is a rewarding, special, and unique job, but it can be challenging at times! Needing to be on top of your game at all times, the organization is key. One fantastic way to always be prepared for anything and everything is by taking your business online.
 
 Here are the top ten reasons you may want to consider Kid Genius, an easy to use program that thinks for you!
