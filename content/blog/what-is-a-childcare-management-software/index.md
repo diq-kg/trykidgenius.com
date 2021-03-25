@@ -5,11 +5,11 @@ slug: /blog/What-is-a-childcare-management-software
 author: Vanessa Serrao
 keywords: childcare management software, daycare management software, daycare,
   childcare, day care
+featuredImage: pexels-cottonbro-3662668.jpeg
+featuredImageCaption: "*Photo by cottonbro from
+  [Pexels](https://www.pexels.com/photo/girls-playing-on-a-white-table-3662668/\
+  )*"
 ---
-![](https://lh3.googleusercontent.com/aceMaBIVLToSbFsQZQNT2IN8k3FTu-6t6Sc0yHHEskfAnu-OwnyncavA4ZV7ersBpqh3tg3MJuLJIjtzEAZFCg_-SmMZLC97QHn9VdKJ-trGYP5fttA1cVLxmv9AZE_kl1SWDZYQ)
-
-*Photo by cottonbro from [Pexels](https://www.pexels.com/photo/girls-playing-on-a-white-table-3662668/)*
-
 When you think of apps or softwares you usually see these technologies being used in several types of corporations and schools/daycares are also a part of this list. Having a childcare software is a great solution for busy centers.
 
 When you work at a daycare center you are providing an educational learning experience on top of many other things. So, this means having an organized and quality program. There’s no better way to get more organized than by having all the information you need to report into one place.
