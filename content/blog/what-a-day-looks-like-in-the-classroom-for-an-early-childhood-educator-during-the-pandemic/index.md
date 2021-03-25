@@ -6,10 +6,11 @@ slug: /blog/what-a-day-looks-like-in-the-classroom-for-an-early-childhood-educat
 author: Vanessa Serrao
 keywords: childcare management software, daycare management software, daycare,
   childcare, day care
+featuredImage: pexels-media-1001914.jpeg
+featuredImageCaption: Photo by Naomi Shi from
+  [Pexels](https://www.pexels.com/photo/three-toddler-eating-on-white-table-1001914/)
 ---
 ![](https://lh6.googleusercontent.com/5ouyGXncqQ4EkhXsoVw_oFeQfQ-5i8Doc__2Mhe0K85nW0FRsqA-Py-zUKkBMIWOOBNOUBfKKwd49PKsdfGKOfFq_-mufJvdnCBAVaHImY2dPp0bdRSAeU_hqetd8SjH0i3uTIyg)
-
-Photo by Naomi Shi from [Pexels](https://www.pexels.com/photo/three-toddler-eating-on-white-table-1001914/)
 
 Childcare is one of the few industries that are considered essential during this pandemic and that have remained open in 2021. Early childhood educators are essential for so many reasons and this pandemic has reinforced this notion even more. Since the pandemic, the way daycares run now is a little different.
 
