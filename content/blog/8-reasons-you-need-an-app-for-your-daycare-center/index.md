@@ -4,8 +4,9 @@ date: 2020-11-06T20:56:40.569Z
 slug: /blog/8-reasons-you-need-an-app-for-your-daycare-center
 author: Ermelinda Maglione
 keywords: daycare center, childcare management software, daycare management software
+featuredImage: daycare-center.jpg
 ---
-![daycer center](daycare-center.jpg "daycer center")
+
 
 ## In today’s world, when it is common to have both parents of a child work full-time to support their family, children will spend a lot of time in a daycare center. For this reason, as well as many others, it is crucial for aspects such as communication, records, and more to be properly registered.
 
