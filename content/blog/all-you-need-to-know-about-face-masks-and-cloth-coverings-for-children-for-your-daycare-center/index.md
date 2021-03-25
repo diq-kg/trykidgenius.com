@@ -8,9 +8,8 @@ keywords: daycare center, daycare management software, childcare management
   software, childcare, daycare, day care, daycare activities, daycare management
   app, app for daycare, kid genius, kidgenius, child care center, daycare
   activities
+featuredImage: daycare-center.jpg
 ---
-![daycare center](daycare-center.jpg "daycare center")
-
 Face masks have become an essential part of our lives. In many places, you need to wear them everywhere you go to prevent infection from Covid-19.
 
 At a daycare center, you need to take [extra precautions](https://trykidgenius.com/blog/guide-for-reopening-your-child-care-center-during-Covid-19-Safety-measures-to-take) to avoid an outbreak. However, can children wear face masks too? Should you require them to wear them while they are at the child care center?
