@@ -5,9 +5,8 @@ date: 2020-11-12T00:11:43.264Z
 slug: /blog/guide-for-reopening-your-child-care-center-during-Covid-19-Safety-measures-to-take
 author: Ermelinda Maglione
 keywords: child care, childcare management software, daycare management software
+featuredImage: child-care.jpg
 ---
-![child care](child-care.jpg "child care")
-
 ## At the start of 2020, no one thought that we would be dealing with a worldwide pandemic. We have had to learn how to use facemasks, disinfect our hands frequently, and maintain social distancing from one another. Child care centers are no exception to this situation.
 
 However, many daycares have begun to open their doors, not without taking safety measures first, which we want to discuss in this post. If your child care center will be receiving children once again soon, read the following tips.
