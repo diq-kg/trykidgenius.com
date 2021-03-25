@@ -4,9 +4,8 @@ date: 2020-10-31T22:09:13.610Z
 slug: /blog/5-reasons-why-parent-apps-work-for-your-daycare-business
 author: Ermelinda Maglione
 keywords: parent app, childcare management software, daycare management software
+featuredImage: parent-app.jpg
 ---
-![parent app](parent-app.jpg "parent app")
-
 Parent apps are a great way to engage with parents and provide real-time updates on what their child is doing at the daycare center. It is also an excellent way to make the relationship between childcare centers and parents more meaningful and closer.
 
 Therefore, if you are running a daycare, you will want to know how you can help your business grow with a parents' childcare app. Here are five reasons why a parent app works for any daycare business:
