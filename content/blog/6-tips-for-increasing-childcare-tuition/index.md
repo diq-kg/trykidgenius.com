@@ -4,9 +4,8 @@ date: 2020-10-09T13:14:16.368Z
 slug: /blog/6-tips-for-increasing-childcare-tuition
 author: Ermelinda Maglione
 keywords: childcare, childcare management software, daycare management software
+featuredImage: childcare.jpg
 ---
-![childcare](childcare.jpg "childcare")
-
 ## If you are in the childcare business or any business, a time will probably arrive when you need to increase the cost of your service. As an owner or manager of a childcare center, if the expenses have begun to outweigh the income, it may be time for an increase.
 
 However, it is not uncommon for this type of news to bring backlash and complaints, in this case, from the parents who are paying for your service. Nonetheless, this should not keep you from increasing the tuition rate if you genuinely feel it is time to do so. As a business manager, you have bills to pay, and, at the same time, you are looking to make a profit.
