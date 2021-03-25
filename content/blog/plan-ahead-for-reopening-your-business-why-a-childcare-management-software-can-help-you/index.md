@@ -5,8 +5,9 @@ date: 2020-12-04T20:42:02.982Z
 slug: /blog/Plan-ahead-for-reopening-your-business-Why-a-childcare-management-software-can-help-you
 author: Ermelinda Maglione
 keywords: "childcare management software, daycare management software "
+featuredImage: childcare-management-software.jpg
 ---
-![childcare management software](childcare-management-software.jpg "childcare management software")
+
 
 ## When your daycare center is small, and you are just starting out, pretty much everything you need to keep track of billing, children's attendance, and staff are only a few color-coded folders. However, as your childcare business starts to grow, we know that you will benefit significantly from a childcare management software.
 
