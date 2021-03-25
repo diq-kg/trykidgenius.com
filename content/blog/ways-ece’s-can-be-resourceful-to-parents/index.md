@@ -5,12 +5,15 @@ slug: /blog/ways-eces-can-be-resourceful-to-parents
 author: Vanessa Serrao
 keywords: daycare management, daycare, childcare, childcare management, daycare
   software, daycare management software, childcare management software
+featuredImage: pexels-gustavo-fring-4173107.jpeg
+featuredImageCaption: "*Photo by [Gustavo
+  Fring](https://www.pexels.com/@gustavo-fring?utm_content=attributionCopyText&\
+  utm_medium=referral&utm_source=pexels) from
+  [Pexels](https://www.pexels.com/photo/crop-schoolchild-learning-to-count-at-h\
+  ome-with-tutor-4173107/?utm_content=attributionCopyText&utm_medium=referral&u\
+  tm_source=pexels)*"
 ---
 
-
-![](https://lh3.googleusercontent.com/SThsKEKAET61k6VJMAjdi9lnANfBZ0WZ6CCAABS3-ba3Ky8T3kCydkJ5-yV2VeDFxVI1EvCAxB5WjzGvbiyaUVazsFpYoxhoe-wpXmcMLGQIV3e85mf-2U9RWfGWTZzOCLSPDqvN)
-
-*Photo by [Gustavo Fring](https://www.pexels.com/@gustavo-fring?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/crop-schoolchild-learning-to-count-at-home-with-tutor-4173107/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)*
 
 As an early childhood educator, you are not only catering to the children’s interests and needs, you are also assisting parents. Parents put a lot of faith into the hands of an early childhood educator. It can be scary to drop off your child for the first time at a childcare center.
 
