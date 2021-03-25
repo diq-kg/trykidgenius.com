@@ -13,7 +13,7 @@ export default function Template({ data }) {
     <Layout>
       <SEO
         url={`/blog/${frontmatter.slug}`}
-        image={frontmatter.featuredImage ? frontmatter.featuredImage.absolutePath : null}
+        image={frontmatter.featuredImage ? frontmatter.featuredImage.publicURL : null}
         title={frontmatter.title}
         keywords={frontmatter.keywords || ''}
         description={
@@ -33,7 +33,10 @@ export default function Template({ data }) {
           <span className="text-sm">written by</span> {frontmatter.author}
         </p>
         {frontmatter.featuredImage && (
-          <div className="mt-5 pt-5 max-w-4xl">        
+          <div className="mt-5 pt-5 max-w-4xl">       
+            <p>{frontmatter.featuredImage.publicURL}</p>      
+            <p>{frontmatter.featuredImage.absolutePath}</p>      
+            <p>{frontmatter.featuredImage.relativePath}</p>      
             <img src={frontmatter.featuredImage.publicURL} />
             <p className="mt-5 text-xs markdown text-gray-600">
               <ReactMarkdown>{frontmatter.featuredImageCaption}</ReactMarkdown>
