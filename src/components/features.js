@@ -73,7 +73,7 @@ function Features(props) {
           Everything you need to manage in one place
         </h2>
       </div>
-      <div className="grid grid-cols-3 gap-4 w-full">
+      <div className="grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
         {features.map((feature) => {
           return (
             <div className="flex justify-center pt-5 px-5 w-full sm:justify-end sm:p-0 sm:px-5 sm:pt-5">
