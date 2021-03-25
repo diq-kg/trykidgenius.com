@@ -5,8 +5,9 @@ date: 2021-01-05T18:50:20.708Z
 slug: /blog/How-to-have-the-right-financial-mindset-for-your-daycare-business-5ways-a-childcare-management-software-can-help-you
 author: Ermelinda Maglione
 keywords: "childcare management software, daycare management software "
+featuredImage: childcare-management-software.jpg
 ---
-![](childcare-management-software.jpg)
+
 
 According to [Lena Elkins](https://www.success.com/4-actionable-steps-to-build-a-positive-money-mindset/) (a business and marketing coach), a money mindset means getting rid of all limiting beliefs that prevent you from taking powerful action and view the world with an opportunistic lens instead. **Whether you own a daycare center or any other type of business, having a positive mindset regarding money will help it flow steadily through time**.
 
