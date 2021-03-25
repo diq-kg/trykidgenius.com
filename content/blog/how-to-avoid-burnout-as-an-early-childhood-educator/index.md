@@ -5,11 +5,14 @@ slug: /blog/how-to-avoid-burnout-as-an-early-childhood-educator
 author: Vanessa Serrao
 keywords: daycare management, daycare, childcare, childcare management, daycare
   software, daycare management software, childcare management software
+featuredImage: pasted-image-0.png
+featuredImageCaption: "*Photo by [Gustavo
+  Fring](https://www.pexels.com/@gustavo-fring?utm_content=attributionCopyText&\
+  utm_medium=referral&utm_source=pexels) from
+  [Pexels](https://www.pexels.com/photo/young-cheerful-woman-playing-with-cute-\
+  daughter-3985012/?utm_content=attributionCopyText&utm_medium=referral&utm_sou\
+  rce=pexels)*"
 ---
-![daycare management](https://lh6.googleusercontent.com/pbU9DMA_xGYm5-OjWLqikowOJVroAYT3_-wu339quXZSbPeiphRvJkI1qpdzYOJmldcspT8K568FIgtO0KlN5P6skWy2ScBnASYuDOtGFV2Ookv4jPItZ2thpDT3ks6ImwpQrUCM "daycare management")
-
-*Photo by [Gustavo Fring](https://www.pexels.com/@gustavo-fring?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/young-cheerful-woman-playing-with-cute-daughter-3985012/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)*
-
 Working as an early childhood educator is a very rewarding and motivating job. You get to see children grow and learn in so many ways. Best of all you are the one to thank for their growth and development. But being an early childhood educator requires a lot of physical work that can definitely be draining. Have you ever heard of the word burnout? Burnout is associated with stress, tiredness, anxiety, and strain. It is common for early childhood educators to experience burnout.
 
 As an early childhood educator, you are on your feet for most of the day. As well, depending on what age group you are working with it may involve you lifting/picking up children, which can be very exhausting by the end of the day. In addition, you’re required to plan activities that cater to children’s interests and needs. Some days will go smoothly when working and some days will be hectic when it comes to children crying, having behavioural issues, not listening, throwing toys, etc. So how do you avoid burnout as an ECE?
