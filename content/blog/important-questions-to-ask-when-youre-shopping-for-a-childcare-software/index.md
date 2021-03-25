@@ -5,10 +5,15 @@ slug: /blog/important-questions-to-ask-when-youre-shopping-for-a-childcare-softw
 author: Vanessa Serrao
 keywords: daycare, daycare management, daycare software, childcare, childcare
   management, childcare management software, daycare management software
+featuredImage: childcare-software.jpg
+featuredImageCaption: "*Photo by [Karolina
+  Grabowska](https://www.pexels.com/@karolina-grabowska?utm_content=attribution\
+  CopyText&utm_medium=referral&utm_source=pexels) from
+  [Pexels](https://www.pexels.com/photo/person-using-a-macbook-and-holding-a-cr\
+  edit-card-4968391/?utm_content=attributionCopyText&utm_medium=referral&utm_so\
+  urce=pexels)*"
 ---
-![childcare software](childcare-software.jpg "childcare software")
 
-*Photo by [Karolina Grabowska](https://www.pexels.com/@karolina-grabowska?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/person-using-a-macbook-and-holding-a-credit-card-4968391/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)*
 
 So, you are the business owner of a childcare center, and you are thinking about purchasing a childcare software. There are many benefits to purchasing a childcare software as having one can help to manage your childcare better and provide more organization, better productivity for workers, and save workers time, so they can focus on other things such as focusing more on children and their needs.
 
