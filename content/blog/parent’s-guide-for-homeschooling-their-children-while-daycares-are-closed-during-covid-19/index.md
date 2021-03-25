@@ -6,9 +6,8 @@ slug: /blog/Parents-guide-for-homeschooling-their-children-while-daycares-are-cl
 author: Ermelinda Maglione
 keywords: homeshooling, covid-19, daycare center, childcare management software,
   daycare management software
+featuredImage: daycare-center.jpg
 ---
-![daycare center](daycare-center.jpg "daycare center")
-
 ## Today’s reality has changed a lot, and no one knows when things will get back to normal. It is possible that your daycare is still closed, or you do not want to risk taking him/her while new cases of Covid-19 are still emerging in your area.
 
 For this reason, you may be considering homeschooling your children until you feel it is safe to take them to the childcare center or until they open their doors once again to the public. If you decide to try homeschooling for now, here are some actions you need to take into consideration.
