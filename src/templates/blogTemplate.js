@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
+import ReactMarkdown from 'react-markdown'
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -13,11 +14,13 @@ export default function Template({ data }) {
     <Layout>
       <SEO
         url={`/blog/${frontmatter.slug}`}
-        image={frontmatter.featuredImage.absolutePath}
+        image={frontmatter.featuredImage ? frontmatter.featuredImage.publicURL : null}
         title={frontmatter.title}
         keywords={frontmatter.keywords || ''}
         description={
-          frontmatter.description || frontmatter.description.length > 0 ? frontmatter.description : excerpt
+          frontmatter.description && frontmatter.description.length > 0
+            ? frontmatter.description
+            : excerpt
         }
       />
       <div className="flex flex-col pl-3 pt-10 items-center">
@@ -33,12 +36,13 @@ export default function Template({ data }) {
         {frontmatter.featuredImage && (
           <div className="mt-5 pt-5 max-w-4xl">
             <img src={frontmatter.featuredImage.publicURL} />
-            <p className="mt-5 text-xs markdown text-gray-600" dangerouslySetInnerHTML={{ __html: frontmatter.featuredImageCaption }}
-            ></p>
+            <p className="mt-5 text-xs markdown text-gray-600">
+              <ReactMarkdown>{frontmatter.featuredImageCaption}</ReactMarkdown>
+            </p>
           </div>
         )}
         <div
-          className="mt-10 pt-10 max-w-4xl border border-gray-400 border-t-1 border-b-0 border-l-0 border-r-0 markdown"
+          className="pt-6 max-w-4xl border border-gray-400 border-t-1 border-b-0 border-l-0 border-r-0 markdown"
           dangerouslySetInnerHTML={{ __html: html }}
         />
         <div className="pt-10">
