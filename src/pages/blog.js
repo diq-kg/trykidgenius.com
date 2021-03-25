@@ -10,9 +10,9 @@ export default function Blog({ data }) {
     allMarkdownRemark: { edges },
   } = data;
 
-  const title = 'KidGenius | Daycare center resources';
+  const title = 'KidGenius | Childcare center resources';
   const desc =
-    'Check out our curated content for daycare centers especially written for childcare owners, parents, teachers and more.';
+    'Check out our curated content for childcare centers especially written for childcare owners, parents, teachers and more.';
   return (
     <Layout>
       <SEO title={title} description={desc} />

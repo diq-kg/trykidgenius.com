@@ -32,7 +32,7 @@ function Pricing(props) {
             <span className="text-black">USD</span>/month per child
           </p>
         </div>
-        <p>Everything you need to manage and grow your daycare.</p>
+        <p>Everything you need to manage and grow your childcare.</p>
         <p className="p-2">Start free for 30 days!</p>
         <hr className="h-1 w-full mt-5 mb-4" />
         <div className="flex flex-col">

@@ -5,9 +5,9 @@ import Pad from '../components/pad';
 import SEO from '../components/seo';
 
 export default function ContactUs() {
-  const title = 'KidGenius | Contact our daycare management software team';
+  const title = 'KidGenius | Contact our childcare management software team';
   const desc =
-    'If you have any questions about KidGenius daycare management software, give us a call.';
+    'If you have any questions about KidGenius childcare management software, give us a call.';
   return (
     <Layout>
       <SEO title={title} description={desc} />

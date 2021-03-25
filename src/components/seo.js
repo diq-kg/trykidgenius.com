@@ -93,18 +93,6 @@ function SEO({ description, lang, meta, keywords, title, author, image, url }) {
   );
 }
 
-/*
-<meta property="og:title" content="KidGenius - Home" />
-<meta property="og:url" content="https://kidgenius.daycareiq.com/" />
-<meta property="og:site_name" content="KidGenius" />
-<meta property="og:image" content="https://kidgenius.daycareiq.com/images/daycareiq_logo.png" />
-<meta property="og:description" content="KidGenius is the easy way to manage a daycare.">
-<meta property="fb:app_id" content="773103229471525" />
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@daycareiq">
-<meta name="twitter:creator" content="@daycareiq"></meta>
-*/
-
 SEO.defaultProps = {
   lang: `en`,
   meta: [],

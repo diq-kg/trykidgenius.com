@@ -6,9 +6,29 @@ import Board from './feature-icons/board';
 import Paper from './feature-icons/paper';
 import Message from './feature-icons/message';
 import Lock from './feature-icons/lock';
+import Enrollments from './feature-icons/enrollments';
+import Filter from './feature-icons/filter';
+import Location from './feature-icons/location';
 
 function Features(props) {
   const features = [
+    {
+      title: 'Multiple Locations',
+      desc:
+        'Manage multiple locations from single application without the hazzle',
+      icon: <Location />,
+    },
+    {
+      title: 'Enrollments & Waitlist',
+      desc: 'Manage and build your enrollment lifecycle and waitlists',
+      icon: <Enrollments />,
+    },
+    {
+      title: 'Daily Report Cards',
+      desc:
+        'Keep track of meals, naps, activities, notes and more! All information is automatically emailed to parents in daily report.',
+      icon: <Paper />,
+    },
     {
       title: 'Attendance',
       desc:
@@ -22,22 +42,21 @@ function Features(props) {
       icon: <Report />,
     },
     {
-      title: 'Bulletin Board',
-      desc:
-        'Meal schedules, annoucements, activties, and forms for parents to read.',
-      icon: <Board />,
-    },
-    {
-      title: 'Daily Report Cards',
-      desc:
-        'Keep track of meals, naps, activities, notes and more! All information is automatically emailed to parents in daily report.',
-      icon: <Paper />,
-    },
-    {
       title: 'In-App Messaging',
       desc:
         'The built-in messaging system makes communicating with parents quick and easy.',
       icon: <Message />,
+    },
+    {
+      title: 'Role based permissions',
+      desc: 'Manage role based access control for staff in all locations',
+      icon: <Filter />,
+    },
+    {
+      title: 'Bulletin Board',
+      desc:
+        'Meal schedules, annoucements, activties, and forms for parents to read.',
+      icon: <Board />,
     },
     {
       title: 'Security',
@@ -54,47 +73,18 @@ function Features(props) {
           Everything you need to manage in one place
         </h2>
       </div>
-      <div className="flex justify-center pt-5 px-5 w-full sm:w-1/2 sm:justify-end sm:p-0 sm:px-5 sm:pt-5">
-        <FeatureCard
-          title={features[0].title}
-          desc={features[0].desc}
-          icon={features[0].icon}
-        />
-      </div>
-      <div className="flex justify-center w-full py-5 px-5 sm:w-1/2 sm:justify-start sm:p-0 sm:px-5 sm:pt-5">
-        <FeatureCard
-          title={features[1].title}
-          desc={features[1].desc}
-          icon={features[1].icon}
-        />
-      </div>
-      <div className="flex justify-center px-5 py-5 w-full sm:w-1/2 sm:justify-end sm:p-0 sm:px-5">
-        <FeatureCard
-          title={features[2].title}
-          desc={features[2].desc}
-          icon={features[2].icon}
-        />
-      </div>
-      <div className="flex justify-center w-full py-5 px-5 sm:w-1/2 sm:justify-start sm:p-0 sm:px-5">
-        <FeatureCard
-          title={features[3].title}
-          desc={features[3].desc}
-          icon={features[3].icon}
-        />
-      </div>
-      <div className="flex justify-center px-5 py-5 w-full sm:w-1/2 sm:justify-end sm:p-0 sm:px-5">
-        <FeatureCard
-          title={features[4].title}
-          desc={features[4].desc}
-          icon={features[4].icon}
-        />
-      </div>
-      <div className="flex justify-center w-full pt-5 px-5 sm:w-1/2 sm:justify-start sm:p-0 sm:px-5">
-        <FeatureCard
-          title={features[5].title}
-          desc={features[5].desc}
-          icon={features[5].icon}
-        />
+      <div className="grid grid-cols-3 gap-4 w-full">
+        {features.map((feature) => {
+          return (
+            <div className="flex justify-center pt-5 px-5 w-full sm:justify-end sm:p-0 sm:px-5 sm:pt-5">
+              <FeatureCard
+                title={feature.title}
+                desc={feature.desc}
+                icon={feature.icon}
+              />
+            </div>
+          );
+        })}
       </div>
     </div>
   );

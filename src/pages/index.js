@@ -46,9 +46,9 @@ function IndexPage() {
     setModal(true);
   }
 
-  const title = 'KidGenius | Daycare management software';
+  const title = 'KidGenius | Childcare management software';
   const desc =
-    'KidGenius daycare app is the easiest for daycare management. We help connect childcare providers and parents.';
+    'KidGenius is the easiest way to manage and grow your childcare';
 
   return (
     <Layout>

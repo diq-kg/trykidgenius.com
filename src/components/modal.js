@@ -33,7 +33,7 @@ export default function CaptureInfoModal(props) {
               className="text-lg leading-6 text-gray-900"
               id="modal-headline"
             >
-              Try Kidgenius with sample daycare setup
+              Try Kidgenius with sample childcare setup
             </h3>
             <h4 className="pt-5"></h4>
             <div className="mt-2 flex flex-col text-gray-900">
