@@ -4,9 +4,8 @@ date: 2020-12-08T23:36:42.981Z
 slug: /blog/what-to-do-if-someone-in-your-child-care-center-tests-positive-for-Covid-19
 author: Ermelinda Maglione
 keywords: child care center, childcare management software, daycare management software
+featuredImage: child-care-center.jpg
 ---
-![child care center](child-care-center.jpg "What to do if someone tests positive at your child care center")
-
 ## A little while ago, we gave you some [tips for reopening your child care center](https://trykidgenius.com/blog/guide-for-reopening-your-child-care-center-during-Covid-19-Safety-measures-to-take) during the pandemic we are still living in the entire world. However, even though we are sure you have been incredibly careful, it is possible that someone in your daycare tests positive or is exposed to COVID-19.
 
 What to do if this occurs? It is easy to feel scared since the fear of getting infected is very common. Still, the most important thing is to stay calm and establish a protocol if this were to happen in your child care center.
