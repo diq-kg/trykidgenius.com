@@ -5,9 +5,8 @@ slug: /blog/tips-for-building-a-successful-daycare-staff-team
 author: Ermelinda Maglione
 keywords: daycare, daycare staff, childcare management software, daycare
   management software
+featuredImage: daycare.jpg
 ---
-![daycare](daycare.jpg "daycare staff")
-
 ## Being part of a daycare staff team can be very stressful. Not only do you have a very important responsibility, which is to take care of other people’s children, but also there are the parents to address, and today there is also Covid-19 and risks of infection.
 
 It is definitely a full-time job. As the manager or director of a childcare center, you have even more to worry about: the staff. How to keep them motivated? How to avoid employee turnover at times when early childhood educators are becoming more and more precious resources?
