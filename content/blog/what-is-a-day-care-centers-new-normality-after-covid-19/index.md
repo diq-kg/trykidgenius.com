@@ -4,9 +4,8 @@ date: 2020-12-22T22:55:32.514Z
 slug: /blog/What-is-a-day-care-centers-new-normality-after-Covid-19
 author: Ermelinda Maglione
 keywords: day care center, childcare management software, daycare management software
+featuredImage: day-care-center.jpg
 ---
-![day care center](day-care-center.jpg "day care center")
-
 ## It seems as if Covid-19 will still be part of our lives in the upcoming future. As the end of 2020 approaches and even though the arrival of a vaccine has made its way into several countries already, the end of this pandemic is still not clear. Therefore, any day care center that is still operating has had to find a “new normality” to survive as a business and offer its services.
 
 [Blackstone.edu](https://blackstone.edu/covid-19-in-child-care-centers/) wrote an article about how this situation has impacted children. Some of them have suffered (and are suffering) from anxiety and stress. Since young children are very receptive to the adults’ emotional reactions, depending on how the situation is handled at home, they will respond one way or another.
