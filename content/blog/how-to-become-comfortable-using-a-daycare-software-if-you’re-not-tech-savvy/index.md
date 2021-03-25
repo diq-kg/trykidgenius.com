@@ -5,11 +5,13 @@ slug: /blog/how-to-become-comfortable-using-a-daycare-software-if-youre-not-tech
 author: Vanessa Serrao
 keywords: daycare management, daycare, childcare, childcare management, daycare
   software, daycare management software, childcare management software
+featuredImage: childcare-management-software.jpg
+featuredImageCaption: "***Photo by [Nubia Navarro
+  (nubikini)](https://www.pexels.com/@nubikini?utm_content=attributionCopyText&\
+  utm_medium=referral&utm_source=pexels) from
+  [Pexels](https://www.pexels.com/photo/woman-holding-silver-ipad-1110355/?utm_\
+  content=attributionCopyText&utm_medium=referral&utm_source=pexels)***"
 ---
-![ childcare management software](childcare-management-software.jpg "childcare management software")
-
-***Photo by [Nubia Navarro (nubikini)](https://www.pexels.com/@nubikini?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/woman-holding-silver-ipad-1110355/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)***
-
 So, you’re the owner of a daycare, and you're considering purchasing a childcare software app, but you’re apprehensive because you’re not considered someone who is tech-savvy. There’s no need to stress as childcare software apps are for the most part easy to navigate. You shouldn’t shy away from something just because you are unfamiliar with it. Be open to doing something that is out of your comfort zone.
 
 ## Software apps usually have online support
