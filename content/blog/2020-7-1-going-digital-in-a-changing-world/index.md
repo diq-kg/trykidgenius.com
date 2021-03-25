@@ -3,14 +3,12 @@ title: Going digital in a changing world
 date: 2020-07-01
 slug: /blog/going-digital-in-a-changing-world
 author: TryKidgenius Team
-avatar: ""
 keywords: KidGenius, childcare management software, daycare management software
+featuredImage: twitter-coverphoto-image-1200x400-2-.png
+avatar: ""
 image: twitter-coverphoto-image-1200x400-2-.png
+description: ""
 ---
-![image](./twitter-coverphoto-image-1200x400-2-.png)
-
-## The month of March in 2020 will always be a time that lives in infamy around the world. Surely to be a story that kids will grow up and tell their own kids about, it's hard to believe that we are living during a worldwide shutdown due to Covid-19. Millions of people stayed home to raise their families and keep safe to protect their health and others' well-being. Slowly, as the world starts to come back to life and work can resume again, things will look much different.
-
 As a daycare owner, now more than ever is the time to invest and learn about online management to assist with various Covid restrictions! Here are some reasons why moving entirely online can help you during these trying times.
 
 ### Attendance
