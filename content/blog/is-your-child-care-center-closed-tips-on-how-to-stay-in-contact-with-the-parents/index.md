@@ -6,8 +6,9 @@ slug: /blog/Is-your-child-care-center-closed-Tips-on-how-to-stay-in-contact-with
 author: Ermelinda Maglione
 keywords: childcare, daycare center, child care center, childcare management
   software, daycare management software
+featuredImage: child-care-center.jpg
 ---
-![childcare center](child-care-center.jpg "childcare center")
+
 
 ## As we have addressed before on this blog, Covid-19 has caused everyone’s reality to change in many ways. A child care center is no exception.
 
