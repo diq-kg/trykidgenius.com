@@ -5,9 +5,8 @@ date: 2020-12-15T21:59:53.980Z
 slug: /blog/Daycare-management-tips-how-to-keep-the-parents-updated-on-the-health-and-safety-policies-of-your-daycare-center
 author: Ermelinda Maglione
 keywords: daycare management, childcare management software, daycare management software
+featuredImage: daycare-management.jpg
 ---
-![daycare management](daycare-management.jpg "daycare management")
-
 ## Today is perhaps more important than ever to keep parents updated on the health and safety policies you implement from the daycare management at your center.
 
 If you have opened your doors again, [there are many things to figure out and plan ahead](https://trykidgenius.com/blog/what-to-do-if-someone-in-your-child-care-center-tests-positive-for-Covid-19), especially in case someone tests positive for Covid-19. Despite this very hard and complicated worldwide situation, health and safety policies are always essential to keep updated at a child care center.
