@@ -8,13 +8,12 @@ import SEO from '../components/seo';
 export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, html, excerpt } = markdownRemark;
-  console.log(frontmatter);
   const date = new Date(frontmatter.date);
   return (
     <Layout>
       <SEO
         url={`/blog/${frontmatter.slug}`}
-        image={frontmatter.featuredImage ? frontmatter.featuredImage.publicURL : null}
+        image={frontmatter.featuredImage ? frontmatter.featuredImage.absolutePath : null}
         title={frontmatter.title}
         keywords={frontmatter.keywords || ''}
         description={
@@ -34,7 +33,7 @@ export default function Template({ data }) {
           <span className="text-sm">written by</span> {frontmatter.author}
         </p>
         {frontmatter.featuredImage && (
-          <div className="mt-5 pt-5 max-w-4xl">
+          <div className="mt-5 pt-5 max-w-4xl">        
             <img src={frontmatter.featuredImage.publicURL} />
             <p className="mt-5 text-xs markdown text-gray-600">
               <ReactMarkdown>{frontmatter.featuredImageCaption}</ReactMarkdown>
