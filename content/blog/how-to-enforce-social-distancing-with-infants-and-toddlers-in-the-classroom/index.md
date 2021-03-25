@@ -5,10 +5,12 @@ slug: /blog/how-to-enforce-social-distancing-with-infants-and-toddlers-in-the-cl
 author: Vanessa Serrao
 keywords: daycare management, daycare, childcare, childcare management, daycare
   software, childcare management software, daycare management software
+featuredImage: daycare-management-software.jpg
+featuredImageCaption: "***Photo by Pixaby from
+  [Pexels](https://www.pexels.com/photo/arts-and-crafts-child-close-up-color-15\
+  9579/)***"
 ---
-![daycare management software](daycare-management-software.jpg "daycare management software")
 
-***Photo by Pixaby from [Pexels](https://www.pexels.com/photo/arts-and-crafts-child-close-up-color-159579/)***
 
 Teaching children about COVID-19 and social distancing can be tricky especially when you are dealing with infants and toddlers. They are at a young age where it is hard for them to understand why it is important to social distance compared to kindergarten and school-age children. But there are ways that can you enforce social distancing with infants and toddlers.
 
